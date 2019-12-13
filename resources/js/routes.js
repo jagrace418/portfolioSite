@@ -15,6 +15,7 @@ import SeniorDesign from "./components/past/SeniorDesign";
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import Why418 from "./components/Why418";
+import About from "./components/About";
 
 export default {
     mode: 'history',
@@ -25,6 +26,10 @@ export default {
         {
             path: '*',
             component: NotFound
+        },
+        {
+            path: '/me',
+            component: About
         },
         {
             path: '/college',

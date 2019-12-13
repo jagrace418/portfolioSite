@@ -16,11 +16,15 @@
 			</h1>
 		</header>
 		<main class="flex flex-1">
-			<aside class="w-1/4 pt-8">
+			<aside class="w-64 pt-8">
 				<section class="mb-8">
+					<h5 class="uppercase font-bold mb-4 text-base">Main</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/" exact>Home</router-link>
+						</li>
+						<li class="text-sm leading-loose">
+							<router-link class="text-black" to="/me" exact>Me</router-link>
 						</li>
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/why" exact>Why 418?</router-link>
