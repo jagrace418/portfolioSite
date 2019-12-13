@@ -14,6 +14,7 @@ import SeniorDesign from "./components/past/SeniorDesign";
 
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
+import Why418 from "./components/Why418";
 
 export default {
     mode: 'history',
@@ -64,9 +65,12 @@ export default {
             component: SeniorDesign
         },
         {
+            path: '/why',
+            component: Why418
+        },
+        {
             path: '/',
             component: Home
         },
-
     ]
 }

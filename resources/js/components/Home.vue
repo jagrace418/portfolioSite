@@ -1,5 +1,14 @@
 <template>
-	<h1 class="font-normal text-3xl text-grey-darkest leading-none">Home</h1>
+	<div>
+		<h1 class="font-normal text-3xl text-grey-darkest leading-none py-2">
+			Home
+		</h1>
+		<p>
+			Hello! Welcome to my website!
+			<br/>
+			Don't be shy, take a look around.
+		</p>
+	</div>
 </template>
 
 <script>

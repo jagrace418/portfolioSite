@@ -9,26 +9,26 @@
 </head>
 <body class="font-sans">
 <div id="app">
-	<div class="container mx-auto">
+	<div class="container px-8">
 		<header class="py-6 mb-8">
 			<h1>
 				<img alt="jagrace" src="/images/jagraceLogo.svg">
 			</h1>
 		</header>
-		<main class="flex">
-			<aside class="w-1/5">
+		<main class="flex flex-1">
+			<aside class="w-1/4 pt-8">
 				<section class="mb-8">
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/" exact>Home</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/" exact>Why 418?</router-link>
+							<router-link class="text-black" to="/why" exact>Why 418?</router-link>
 						</li>
 					</ul>
 				</section>
 				<section class="mb-8">
-					<h5 class="uppercase font-bold mb-4">About</h5>
+					<h5 class="uppercase font-bold mb-4 text-base">About</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/early">Early Life</router-link>
@@ -42,7 +42,7 @@
 					</ul>
 				</section>
 				<section class="mb-8">
-					<h5 class="uppercase font-bold mb-4">Current Work</h5>
+					<h5 class="uppercase font-bold mb-4 text-base">Current Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/laravel">Laravel</router-link>
@@ -53,7 +53,7 @@
 					</ul>
 				</section>
 				<section class="mb-8">
-					<h5 class="uppercase font-bold mb-4">Past Work</h5>
+					<h5 class="uppercase font-bold mb-4 text-base">Past Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/senior">Senior Design Project</router-link>
@@ -67,7 +67,7 @@
 					</ul>
 				</section>
 				<section class="mb-8">
-					<h5 class="uppercase font-bold mb-4">Future Work</h5>
+					<h5 class="uppercase font-bold mb-4 text-base">Future Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/finances">Financial Manager App</router-link>
