@@ -1,21 +1,23 @@
 <template>
-	<div>
-		<h1 class="font-normal text-3xl text-grey-darkest leading-none py-2">
-			Early Life
-		</h1>
-		<p>
-			I was a child once, then I grew up and learned how to learn.
-		</p>
-		<ul>
-			<li>I like to read books</li>
-			<li>I like hiking</li>
-		</ul>
-	</div>
+	<card>
+		<template slot="title">Early Life</template>
+		<template slot="body">
+			<p>
+				I was a child once, then I grew up and learned how to learn.
+			</p>
+			<ul>
+				<li>I like to read books</li>
+				<li>I like hiking</li>
+			</ul>
+		</template>
+	</card>
 </template>
 
 <script>
+	import Card from "../Card";
     export default {
-        name: "EarlyLife"
+        name: "EarlyLife",
+        components: {Card}
     }
 </script>
 

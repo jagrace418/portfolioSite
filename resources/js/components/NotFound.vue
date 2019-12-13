@@ -1,15 +1,15 @@
 <template>
-	<div>
-		<h1>Whoops! 404</h1>
-		<p>
-			You seem to have ventured into nothingness.
-		</p>
-	</div>
+	<card>
+		<template slot="title">Whoops! 404</template>
+		<template slot="body">You seem to have wandered into the abyss</template>
+	</card>
 </template>
 
 <script>
+	import Card from "./Card";
     export default {
-        name: "NotFound"
+        name: "NotFound",
+        components: {Card}
     }
 </script>
 

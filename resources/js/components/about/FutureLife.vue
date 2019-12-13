@@ -1,17 +1,17 @@
 <template>
-	<div>
-		<h1 class="font-normal text-3xl text-grey-darkest leading-none py-2">
-			Future Life Plans
-		</h1>
-		<p>
+	<card>
+		<template slot="title">Future Life Plans</template>
+		<template slot="body">
 			My future is wide open. One day I'd like to travel to Europe.
-		</p>
-	</div>
+		</template>
+	</card>
 </template>
 
 <script>
+	import Card from "../Card";
     export default {
-        name: "FutureLife"
+        name: "FutureLife",
+        components: {Card}
     }
 </script>
 

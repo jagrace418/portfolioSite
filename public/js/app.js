@@ -95,19 +95,27 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./resources/js/components/Card.vue");
 //
 //
 //
 //
+//
+//
+//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "About"
+  name: "About",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=script&lang=js&":
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Card.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Card.vue?vue&type=script&lang=js& ***!
   \***************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -127,8 +135,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Home"
+  name: "Card"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./resources/js/components/Card.vue");
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "Home",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -142,6 +179,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -149,10 +187,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "NotFound"
+  name: "NotFound",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -166,6 +206,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -179,10 +220,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Why418"
+  name: "Why418",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -196,6 +239,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -205,10 +249,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "CollegeLife"
+  name: "CollegeLife",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -222,6 +268,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -237,8 +284,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "EarlyLife"
+  name: "EarlyLife",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -252,6 +303,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -261,10 +313,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "FutureLife"
+  name: "FutureLife",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -278,6 +332,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -288,10 +343,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Laravel"
+  name: "Laravel",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -305,6 +362,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -332,8 +390,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Unity3D"
+  name: "Unity3D",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -347,6 +409,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -363,10 +426,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Finances"
+  name: "Finances",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -380,6 +445,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -391,10 +457,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "VR"
+  name: "VR",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -408,6 +476,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -418,10 +487,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Blender"
+  name: "Blender",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -435,6 +506,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -452,8 +524,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "GameAI"
+  name: "GameAI",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -467,6 +543,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Card */ "./resources/js/components/Card.vue");
 //
 //
 //
@@ -476,10 +553,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "SeniorDesign"
+  name: "SeniorDesign",
+  components: {
+    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
 });
 
 /***/ }),
@@ -967,7 +1046,57 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("About Me")]),
+      _vm._v(" "),
+      _c("template", { slot: "body" }, [
+        _vm._v("I'm a software engineer with an addiction to knowledge.")
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Card.vue?vue&type=template&id=b9bc2c0a&scoped=true&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Card.vue?vue&type=template&id=b9bc2c0a&scoped=true& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c(
+      "h1",
+      {
+        staticClass: "font-normal text-3xl text-grey-darkest leading-none py-2"
+      },
+      [_vm._t("title", [_vm._v("\n\t\t\tUnder Construction\n\t\t")])],
+      2
+    ),
+    _vm._v(" "),
+    _c(
+      "p",
+      { staticClass: "mt-4" },
+      [_vm._t("body", [_vm._v("\n\t\t\tMore details soon to come...\n\t\t")])],
+      2
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -991,31 +1120,17 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tHome\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Home")]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v("\n\t\tHello! Welcome to my website!\n\t\t"),
-        _c("br"),
-        _vm._v("\n\t\tDon't be shy, take a look around.\n\t")
-      ])
-    ])
-  }
-]
+      _c("template", { slot: "body" }, [_vm._v("Welcome to my website")])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1037,20 +1152,19 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", [_vm._v("Whoops! 404")]),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Whoops! 404")]),
       _vm._v(" "),
-      _c("p", [_vm._v("\n\t\tYou seem to have ventured into nothingness.\n\t")])
-    ])
-  }
-]
+      _c("template", { slot: "body" }, [
+        _vm._v("You seem to have wandered into the abyss")
+      ])
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1072,26 +1186,14 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tWhy do you use 418?\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Why do you use 418?")]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v(
-          "\n\t\tI have been a web developer for a few years now.\n\t\tSometimes I'll see things that make me smile, but one thing that made me laugh when I saw it was the official\n\t\tMDN HTTP status code 418 \"I'm a tea pot\".\n\t\tIt's an April Fool's joke from 1998 and some websites enjoy implementing it for a laugh.\n\t\t"
+          "\n\t\tI have been a web developer for a few years now.\n\t\tSometimes I'll see things that make me smile, but one thing that made me laugh when I saw it was the official\n\t\tMDN HTTP status code 418 \"I'm a tea pot\".\n\t\tIt's an April Fool's joke from 1998 and some websites enjoy implementing it for a laugh.\n\t\tCheck out the MDN reference "
         ),
         _c(
           "a",
@@ -1101,12 +1203,14 @@ var staticRenderFns = [
                 "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418"
             }
           },
-          [_vm._v("Check out the MDN reference here")]
+          [_vm._v("here")]
         )
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1128,33 +1232,23 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tCollege Life\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("College Life")]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v("\n\t\tI attended "),
         _c("a", { attrs: { href: "https://www.iastate.edu" } }, [
           _vm._v("Iowa State University")
         ]),
         _vm._v(" from 2015 - 2019.\n\t")
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1176,37 +1270,29 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tEarly Life\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Early Life")]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n\t\tI was a child once, then I grew up and learned how to learn.\n\t"
-        )
-      ]),
-      _vm._v(" "),
-      _c("ul", [
-        _c("li", [_vm._v("I like to read books")]),
+      _c("template", { slot: "body" }, [
+        _c("p", [
+          _vm._v(
+            "\n\t\t\tI was a child once, then I grew up and learned how to learn.\n\t\t"
+          )
+        ]),
         _vm._v(" "),
-        _c("li", [_vm._v("I like hiking")])
+        _c("ul", [
+          _c("li", [_vm._v("I like to read books")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("I like hiking")])
+        ])
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1228,31 +1314,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tFuture Life Plans\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Future Life Plans")]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v(
           "\n\t\tMy future is wide open. One day I'd like to travel to Europe.\n\t"
         )
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1274,31 +1350,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tLaravel\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Laravel")]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v(
           "\n\t\tLaravel is my new web developer addiction.\n\t\tIt does what I ask it to do and I don't have to jump through hoops to do it.\n\t"
         )
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1320,49 +1386,43 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tUnity3D\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Unity3D")]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n\t\tI play video games. Why not code one?\n\t\tI've been conducting experiments with Unity3D to see what kind of limits Unity can take me to and to start\n\t\tbuilding simple game components that I can later drop in on a game I'm developing and have certain\n\t\tfunctionality\n\t\talready working the way I want it.\n\t\tA few examples\n\t"
-        )
-      ]),
-      _vm._v(" "),
-      _c("ul", [
-        _c("li", [_vm._v("FPS character")]),
-        _vm._v(" "),
-        _c("ul", [
-          _c("li", [_vm._v("Camera functionality")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Body (aka arms and hands) Models and animations")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Weapons with bullet physics")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Climbing Mechanics")])
+      _c("template", { slot: "body" }, [
+        _c("p", [
+          _vm._v(
+            "\n\t\t\tI play video games. Why not code one?\n\t\t\tI've been conducting experiments with Unity3D to see what kind of limits Unity can take me to and to start\n\t\t\tbuilding simple game components that I can later drop in on a game I'm developing and have certain\n\t\t\tfunctionality\n\t\t\talready working the way I want it.\n\t\t\tA few examples\n\t\t"
+          )
         ]),
         _vm._v(" "),
-        _c("li", [_vm._v("Audio Manager")]),
-        _vm._v(" "),
-        _c("li", [_vm._v("Scene Builder")])
+        _c("ul", [
+          _c("li", [_vm._v("FPS character")]),
+          _vm._v(" "),
+          _c("ul", [
+            _c("li", [_vm._v("Camera functionality")]),
+            _vm._v(" "),
+            _c("li", [
+              _vm._v("Body (aka arms and hands) Models and animations")
+            ]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Weapons with bullet physics")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Climbing Mechanics")])
+          ]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Audio Manager")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Scene Builder")])
+        ])
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1384,31 +1444,23 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tFinancial Manager Application\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [
+        _vm._v("Financial Manager Application")
+      ]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v(
           "\n\t\tFinancial planning can be difficult. Tracking your spending feels like such a chore.\n\t\tAnd then tax season comes around and you have to dig up a bunch of paperwork and spend more time than you want to get your tax returns.\n\t\tWhat if there was an application that made all this pain go away?\n\t\tI am in the early planning stages of building an open source financial management application.\n\t\tIt will not link to banks or credit cards, because that can be dangerous.\n\t\tSo it will need a efficient way to gather your financial data and then aggregate and display it back in a nice easy to understand way.\n\t\tAre you making profits? Are you spending more than you make?\n\t\tThis app is here to help.\n\t"
         )
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1430,31 +1482,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tVR Games\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("VR Games")]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v(
           "\n\t\tI believe VR can be the next big thing in gaming but it hasn't happened yet.\n\t\tThere are still a few critical factors that limit how great current VR implementations are in reality.\n\t\tI would like to one day develop some VR games.\n\t"
         )
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1476,24 +1518,12 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tBlender Projects\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Blender Projects")]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v(
           "\n\t\tSometimes it's nice to take a step away from the logical/analytical activities and do something more creative.\n\t\tI've been learning "
         ),
@@ -1502,9 +1532,11 @@ var staticRenderFns = [
         ]),
         _vm._v(" for about a year now.\n\t")
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1526,37 +1558,29 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tGame AI\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Game AI")]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n\t\tI love video games! Something that has always fascinated me is the computer I've played against in countless\n\t\ttitles, modes, and styles.\n\t\tSince then I've wanted to understand how they think for two reasons:\n\t"
-        )
-      ]),
-      _vm._v(" "),
-      _c("ul", [
-        _c("li", [_vm._v("Can I make exploit them to win?")]),
+      _c("template", { slot: "body" }, [
+        _c("p", [
+          _vm._v(
+            "\n\t\t\tI love video games! Something that has always fascinated me is the computer I've played against in countless\n\t\t\ttitles, modes, and styles.\n\t\t\tSince then I've wanted to understand how they think for two reasons:\n\t\t"
+          )
+        ]),
         _vm._v(" "),
-        _c("li", [_vm._v("Can I make them even smarter?")])
+        _c("ul", [
+          _c("li", [_vm._v("Can I make exploit them to win?")]),
+          _vm._v(" "),
+          _c("li", [_vm._v("Can I make them even smarter?")])
+        ])
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -1578,31 +1602,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c(
-        "h1",
-        {
-          staticClass:
-            "font-normal text-3xl text-grey-darkest leading-none py-2"
-        },
-        [_vm._v("\n\t\tSenior Design Project\n\t")]
-      ),
+  return _c(
+    "card",
+    [
+      _c("template", { slot: "title" }, [_vm._v("Senior Design Project")]),
       _vm._v(" "),
-      _c("p", [
+      _c("template", { slot: "body" }, [
         _vm._v(
           "\n\t\tDuring my senior year I was part of a team that developed an interesting holiday project.\n\t"
         )
       ])
-    ])
-  }
-]
+    ],
+    2
+  )
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -16695,6 +16709,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_fb05e49c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_fb05e49c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Card.vue":
+/*!******************************************!*\
+  !*** ./resources/js/components/Card.vue ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Card_vue_vue_type_template_id_b9bc2c0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card.vue?vue&type=template&id=b9bc2c0a&scoped=true& */ "./resources/js/components/Card.vue?vue&type=template&id=b9bc2c0a&scoped=true&");
+/* harmony import */ var _Card_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Card.vue?vue&type=script&lang=js& */ "./resources/js/components/Card.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Card_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Card_vue_vue_type_template_id_b9bc2c0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Card_vue_vue_type_template_id_b9bc2c0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "b9bc2c0a",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Card.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Card.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/Card.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Card.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Card.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Card.vue?vue&type=template&id=b9bc2c0a&scoped=true&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/Card.vue?vue&type=template&id=b9bc2c0a&scoped=true& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_template_id_b9bc2c0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Card.vue?vue&type=template&id=b9bc2c0a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Card.vue?vue&type=template&id=b9bc2c0a&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_template_id_b9bc2c0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_template_id_b9bc2c0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

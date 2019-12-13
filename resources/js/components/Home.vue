@@ -1,19 +1,15 @@
 <template>
-	<div>
-		<h1 class="font-normal text-3xl text-grey-darkest leading-none py-2">
-			Home
-		</h1>
-		<p>
-			Hello! Welcome to my website!
-			<br/>
-			Don't be shy, take a look around.
-		</p>
-	</div>
+	<card>
+		<template slot="title">Home</template>
+		<template slot="body">Welcome to my website</template>
+	</card>
 </template>
 
 <script>
+	import Card from "./Card";
     export default {
-        name: "Home"
+        name: "Home",
+        components: {Card}
     }
 </script>
 

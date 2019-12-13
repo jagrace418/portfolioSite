@@ -1,17 +1,17 @@
 <template>
-	<div>
-		<h1 class="font-normal text-3xl text-grey-darkest leading-none py-2">
-			College Life
-		</h1>
-		<p>
+	<card>
+		<template slot="title">College Life</template>
+		<template slot="body">
 			I attended <a href="https://www.iastate.edu">Iowa State University</a> from 2015 - 2019.
-		</p>
-	</div>
+		</template>
+	</card>
 </template>
 
 <script>
+	import Card from "../Card";
     export default {
-        name: "CollegeLife"
+        name: "CollegeLife",
+        components: {Card}
     }
 </script>
 
