@@ -11,8 +11,8 @@
 <div id="app">
 	<div class="container px-8">
 		<header class="py-6 mb-8">
-			<h1>
-				<img alt="jagrace" src="/images/jagraceLogo.svg">
+			<h1 class="text-black">
+				jagrace418
 			</h1>
 		</header>
 		<main class="flex flex-1">
