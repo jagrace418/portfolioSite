@@ -1153,7 +1153,7 @@ var render = function() {
     [
       _c("template", { slot: "title" }, [_vm._v("Whoops! 404")]),
       _vm._v(" "),
-      _c("template", { slot: "body" }, [
+      _c("template", { slot: "body-simple" }, [
         _vm._v("You seem to have wandered into the abyss")
       ])
     ],
