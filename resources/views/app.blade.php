@@ -32,20 +32,6 @@
 					</ul>
 				</section>
 				<section class="mb-8">
-					<h5 class="uppercase font-bold mb-4 text-base">About</h5>
-					<ul class="list-reset">
-						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/early">Early Life</router-link>
-						</li>
-						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/college">College Life</router-link>
-						</li>
-						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/future">Future Life</router-link>
-						</li>
-					</ul>
-				</section>
-				<section class="mb-8">
 					<h5 class="uppercase font-bold mb-4 text-base">Current Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
@@ -67,17 +53,6 @@
 						</li>
 						<li class="text-sm leading-loose">
 							<router-link class="text-black" to="/blender">Blender Renders</router-link>
-						</li>
-					</ul>
-				</section>
-				<section class="mb-8">
-					<h5 class="uppercase font-bold mb-4 text-base">Future Work</h5>
-					<ul class="list-reset">
-						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/finances">Financial Manager App</router-link>
-						</li>
-						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/vr">VR Games</router-link>
 						</li>
 					</ul>
 				</section>
