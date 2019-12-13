@@ -18,16 +18,26 @@
 		<main class="flex">
 			<aside class="w-1/5">
 				<section class="mb-8">
+					<ul class="list-reset">
+						<li class="text-sm leading-loose">
+							<router-link class="text-black" to="/" exact>Home</router-link>
+						</li>
+						<li class="text-sm leading-loose">
+							<router-link class="text-black" to="/" exact>Why 418?</router-link>
+						</li>
+					</ul>
+				</section>
+				<section class="mb-8">
 					<h5 class="uppercase font-bold mb-4">About</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/about">Early Life</router-link>
+							<router-link class="text-black" to="/early">Early Life</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/">College Life</router-link>
+							<router-link class="text-black" to="/college">College Life</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/">Future Life</router-link>
+							<router-link class="text-black" to="/future">Future Life</router-link>
 						</li>
 					</ul>
 				</section>
@@ -35,13 +45,10 @@
 					<h5 class="uppercase font-bold mb-4">Current Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/about">Laravel</router-link>
+							<router-link class="text-black" to="/laravel">Laravel</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/">Unity3D</router-link>
-						</li>
-						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/">Unity3D</router-link>
+							<router-link class="text-black" to="/unity">Unity3D</router-link>
 						</li>
 					</ul>
 				</section>
@@ -49,13 +56,13 @@
 					<h5 class="uppercase font-bold mb-4">Past Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/about">Senior Design Project</router-link>
+							<router-link class="text-black" to="/senior">Senior Design Project</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/">Game AI</router-link>
+							<router-link class="text-black" to="/ai">Game AI</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/">Blender Renders</router-link>
+							<router-link class="text-black" to="/blender">Blender Renders</router-link>
 						</li>
 					</ul>
 				</section>
@@ -63,10 +70,10 @@
 					<h5 class="uppercase font-bold mb-4">Future Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/about">Financial Manager App</router-link>
+							<router-link class="text-black" to="/finances">Financial Manager App</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/about">VR Games</router-link>
+							<router-link class="text-black" to="/vr">VR Games</router-link>
 						</li>
 					</ul>
 				</section>

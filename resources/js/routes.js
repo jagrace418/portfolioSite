@@ -1,17 +1,72 @@
+import CollegeLife from "./components/about/CollegeLife";
+import EarlyLife from "./components/about/EarlyLife";
+import FutureLife from "./components/about/FutureLife";
+
+import Laravel from "./components/current/Laravel";
+import Unity3D from "./components/current/Unity3D";
+
+import Finances from "./components/future/Finances";
+import VR from "./components/future/VR";
+
+import Blender from "./components/past/Blender";
+import GameAI from "./components/past/GameAI";
+import SeniorDesign from "./components/past/SeniorDesign";
+
 import Home from "./components/Home";
-import About from "./components/About";
+import NotFound from "./components/NotFound";
 
 export default {
     mode: 'history',
 
-    routes:[
+    linkActiveClass: 'font-bold',
+
+    routes: [
+        {
+            path: '*',
+            component: NotFound
+        },
+        {
+            path: '/college',
+            component: CollegeLife
+        },
+        {
+            path: '/early',
+            component: EarlyLife
+        },
+        {
+            path: '/future',
+            component: FutureLife
+        },
+        {
+            path: '/laravel',
+            component: Laravel
+        }, {
+            path: '/unity',
+            component: Unity3D
+        }, {
+            path: '/finances',
+            component: Finances
+        },
+        {
+            path: '/vr',
+            component: VR
+        },
+        {
+            path: '/blender',
+            component: Blender
+        },
+        {
+            path: '/ai',
+            component: GameAI
+        },
+        {
+            path: '/senior',
+            component: SeniorDesign
+        },
         {
             path: '/',
             component: Home
         },
-        {
-            path: '/about',
-            component: About
-        },
+
     ]
 }
