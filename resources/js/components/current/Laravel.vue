@@ -1,6 +1,11 @@
 <template>
 	<card>
 		<template slot="title">Laravel</template>
+		<template slot="mainImage">
+			<a href="https://laravel.com">
+				<img width="200" height="200" src="/images/laravel-logo.png" alt="Laravel">
+			</a>
+		</template>
 		<template slot="body-simple">
 			Laravel is my new web developer addiction.
 			It does what I ask it to do and I don't have to jump through hoops to do it.

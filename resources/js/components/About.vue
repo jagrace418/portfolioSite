@@ -2,7 +2,9 @@
 	<card>
 		<template slot="title">About Me</template>
 		<template slot="mainImage">
-			<img src="/images/selfie.jpg" alt="Jake">
+			<a href="https://www.linkedin.com/in/jacobisu19/">
+				<img src="/images/selfie.jpg" alt="Jake">
+			</a>
 		</template>
 
 
@@ -10,11 +12,9 @@
 			My name is Jake and I'm a software engineer.
 		</template>
 		<template slot="body-full">
-			<div>
-				<p>
-					I am a software engineer/developer/enthusiast that always wants to figure out how things work.
-				</p>
-			</div>
+			<p>
+				I am a software engineer/developer/enthusiast that always wants to figure out how things work.
+			</p>
 			<br/>
 			<h4>How did you get into software engineering?</h4>
 			<p>
@@ -40,6 +40,7 @@
 				<li>Destiny 2</li>
 				<li>Red Dead Redemption 2</li>
 				<li>Hitman 2</li>
+				<li>Cuphead</li>
 			</ul>
 			<br/>
 			<h4>Favorite TV Shows</h4>

@@ -152,6 +152,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "About",
@@ -248,15 +249,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Why418",
-  components: {
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "Why418",
+                components: {
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
 
-/***/ }),
+            /***/
+        }),
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/Card.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************!*\
@@ -325,15 +337,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Laravel",
-  components: {
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "Laravel",
+                components: {
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
 
-/***/ }),
+            /***/
+        }),
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/current/Unity3D.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************************!*\
@@ -376,15 +395,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Unity3D",
-  components: {
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "Unity3D",
+                components: {
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
 
-/***/ }),
+            /***/
+        }),
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/Blender.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************!*\
@@ -412,15 +438,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Blender",
-  components: {
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "Blender",
+                components: {
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
 
-/***/ }),
+            /***/
+        }),
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/GameAI.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************!*\
@@ -460,15 +492,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "GameAI",
-  components: {
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "GameAI",
+                components: {
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
 
-/***/ }),
+            /***/
+        }),
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/SeniorDesign.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************!*\
@@ -515,15 +556,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "SeniorDesign",
-  components: {
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "SeniorDesign",
+                components: {
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
 
-/***/ }),
+            /***/
+        }),
 
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
@@ -1014,7 +1065,11 @@ var render = function() {
       _c("template", { slot: "title" }, [_vm._v("About Me")]),
       _vm._v(" "),
       _c("template", { slot: "mainImage" }, [
-        _c("img", { attrs: { src: "/images/selfie.jpg", alt: "Jake" } })
+          _c(
+              "a",
+              {attrs: {href: "https://www.linkedin.com/in/jacobisu19/"}},
+              [_c("img", {attrs: {src: "/images/selfie.jpg", alt: "Jake"}})]
+          )
       ]),
       _vm._v(" "),
       _c("template", { slot: "body-simple" }, [
@@ -1022,22 +1077,20 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("template", { slot: "body-full" }, [
-        _c("div", [
           _c("p", [
-            _vm._v(
-              "\n\t\t\t\tI am a software engineer/developer/enthusiast that always wants to figure out how things work.\n\t\t\t"
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("h4", [_vm._v("How did you get into software engineering?")]),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "\n\t\t\tEver since I was young I would take things apart to see what's inside. When I was young, the local\n\t\t\tnewspaper asked what I wanted to be when i grew up. I told them 'I want to be a sci-ventor' (My personal\n\t\t\tcombination of scientist and inventor). All these years later, I'd say I did pretty good at meeting that\n\t\t\tgoal.\n\t\t\t"
-          ),
+              _vm._v(
+                  "\n\t\t\tI am a software engineer/developer/enthusiast that always wants to figure out how things work.\n\t\t"
+              )
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("h4", [_vm._v("How did you get into software engineering?")]),
+          _vm._v(" "),
+          _c("p", [
+              _vm._v(
+                  "\n\t\t\tEver since I was young I would take things apart to see what's inside. When I was young, the local\n\t\t\tnewspaper asked what I wanted to be when i grew up. I told them 'I want to be a sci-ventor' (My personal\n\t\t\tcombination of scientist and inventor). All these years later, I'd say I did pretty good at meeting that\n\t\t\tgoal.\n\t\t\t"
+              ),
           _c("br"),
           _vm._v(
             "\n\t\t\tIn high school I took a Java programming class. That was my first real exposure to software development.\n\t\t\tThe final project was to create anything you wanted, so my partner and I created a Pac Man clone. This\n\t\t\twas also the start of my fascination with AI. I spent a lot of time reading how the original AI worked\n\t\t\tin the game and did my best to recreate it.\n\t\t"
@@ -1059,11 +1112,13 @@ var render = function() {
         _c("h4", [_vm._v("Favorite Video Games")]),
         _vm._v(" "),
         _c("ul", { staticClass: "list-reset" }, [
-          _c("li", [_vm._v("Destiny 2")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Red Dead Redemption 2")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Hitman 2")])
+            _c("li", [_vm._v("Destiny 2")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Red Dead Redemption 2")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Hitman 2")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Cuphead")])
         ]),
         _vm._v(" "),
         _c("br"),
@@ -1184,25 +1239,45 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "card",
-    [
-      _c("template", { slot: "title" }, [_vm._v("Why do you use 418?")]),
-      _vm._v(" "),
-      _c("template", { slot: "body" }, [
-        _vm._v(
-          "\n\t\tI have been a web developer for a few years now.\n\t\tSometimes I'll see things that make me smile, but one thing that made me laugh when I saw it was the\n\t\tofficial\n\t\tMDN HTTP status code 418 \"I'm a tea pot\".\n\t\tIt's an April Fool's joke from 1998 and some websites enjoy implementing it for a laugh.\n\t\tCheck out the MDN reference "
-        ),
-        _c(
-          "a",
-          {
-            attrs: {
-              href:
-                "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418"
-            }
-          },
-          [_vm._v("here")]
-        )
-      ])
-    ],
+      [
+          _c("template", {slot: "title"}, [_vm._v("Why do you use 418?")]),
+          _vm._v(" "),
+          _c("template", {slot: "body-simple"}, [_vm._v("It's fun")]),
+          _vm._v(" "),
+          _c("template", {slot: "body-full"}, [
+              _c("p", [
+                  _vm._v(
+                      "\n\t\t\tSometimes I'll see things that make me smile, but one thing that made me laugh when I saw it was HTTP\n\t\t\tstatus code 418 \"I'm a tea pot\".\n\t\t\tIt's an April Fool's joke from 1998 and some websites enjoy implementing it for a laugh.\n\t\t"
+                  )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("ul", {staticClass: "list-reset"}, [
+                  _c("li", [
+                      _vm._v("\n\t\t\t\tCheck out the MDN reference "),
+                      _c(
+                          "a",
+                          {
+                              attrs: {
+                                  href:
+                                      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418"
+                              }
+                          },
+                          [_vm._v("here")]
+                      ),
+                      _vm._v(".\n\t\t\t")
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                      _vm._v("\n\t\t\t\tAnd here's an easter egg from "),
+                      _c("a", {attrs: {href: "https://www.google.com/teapot"}}, [
+                          _vm._v("Google")
+                      ])
+                  ])
+              ])
+          ])
+      ],
     2
   )
 }
@@ -1286,18 +1361,31 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "card",
-    [
-      _c("template", { slot: "title" }, [_vm._v("Laravel")]),
-      _vm._v(" "),
-      _c("template", { slot: "body-simple" }, [
-        _vm._v(
-          "\n\t\tLaravel is my new web developer addiction.\n\t\tIt does what I ask it to do and I don't have to jump through hoops to do it.\n\t"
-        )
-      ]),
-      _vm._v(" "),
-      _c("template", { slot: "body-full" }, [
-        _vm._v(
-          "\n\t\tThis entire website was written in Laravel + Vue.js. It really didn't take that long to get off the ground\n\t\tand looking great. I still have much to learn about Laravel but am very excited.\n\t"
+      [
+          _c("template", {slot: "title"}, [_vm._v("Laravel")]),
+          _vm._v(" "),
+          _c("template", {slot: "mainImage"}, [
+              _c("a", {attrs: {href: "https://laravel.com"}}, [
+                  _c("img", {
+                      attrs: {
+                          width: "200",
+                          height: "200",
+                          src: "/images/laravel-logo.png",
+                          alt: "Laravel"
+                      }
+                  })
+              ])
+          ]),
+          _vm._v(" "),
+          _c("template", {slot: "body-simple"}, [
+              _vm._v(
+                  "\n\t\tLaravel is my new web developer addiction.\n\t\tIt does what I ask it to do and I don't have to jump through hoops to do it.\n\t"
+              )
+          ]),
+          _vm._v(" "),
+          _c("template", {slot: "body-full"}, [
+              _vm._v(
+                  "\n\t\tThis entire website was written in Laravel + Vue.js. It really didn't take that long to get off the ground\n\t\tand looking great. I still have much to learn about Laravel but am very excited.\n\t"
         )
       ])
     ],
@@ -1328,18 +1416,24 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "card",
-    [
-      _c("template", { slot: "title" }, [_vm._v("Unity3D")]),
-      _vm._v(" "),
-      _c("template", { slot: "body-simple" }, [
-        _vm._v("\n\t\tI play video games. Why not code some?\n\t")
-      ]),
-      _vm._v(" "),
-      _c("template", { slot: "body-full" }, [
-        _c("p", [
-          _vm._v(
-            "\n\t\t\tI've been conducting experiments with Unity3D to see what kind of limits Unity can take me to and to\n\t\t\tstart building simple game components that I can later drop in on a game I'm developing and have certain\n\t\t\tfunctionality already working the way I want it.\n\t\t"
-          )
+      [
+          _c("template", {slot: "title"}, [_vm._v("Unity3D")]),
+          _vm._v(" "),
+          _c("template", {slot: "mainImage"}, [
+              _c("a", {attrs: {href: "https://unity.com"}}, [
+                  _vm._v("\n\t\t\tPending permission to use Unity Logo\n\t\t")
+              ])
+          ]),
+          _vm._v(" "),
+          _c("template", {slot: "body-simple"}, [
+              _vm._v("\n\t\tI play video games. Why not code some?\n\t")
+          ]),
+          _vm._v(" "),
+          _c("template", {slot: "body-full"}, [
+              _c("p", [
+                  _vm._v(
+                      "\n\t\t\tI've been conducting experiments with Unity3D to see what kind of limits Unity can take me to and to\n\t\t\tstart building simple game components that I can later drop in on a game I'm developing and have certain\n\t\t\tfunctionality already working the way I want it.\n\t\t"
+                  )
         ]),
         _vm._v(" "),
         _c("br"),
@@ -1396,21 +1490,35 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "card",
-    [
-      _c("template", { slot: "title" }, [_vm._v("Blender Projects")]),
-      _vm._v(" "),
-      _c("template", { slot: "body-simple" }, [
-        _vm._v(
-          "\n\t\tSometimes it's nice to take a step away from the logical/analytical activities and do something more\n\t\tcreative.\n\t\tI've been learning "
-        ),
-        _c("a", { attrs: { href: "https://www.blender.org" } }, [
-          _vm._v("Blender")
-        ]),
-        _vm._v(" for about a year now.\n\t")
-      ]),
+      [
+          _c("template", {slot: "title"}, [_vm._v("Blender Projects")]),
+          _vm._v(" "),
+          _c("template", {slot: "mainImage"}, [
+              _c("a", {attrs: {href: "http://www.blender.org"}}, [
+                  _c("img", {
+                      attrs: {
+                          width: "200",
+                          height: "200",
+                          src: "/images/blender_logo_socket.png",
+                          alt: "Blender"
+                      }
+                  })
+              ])
+          ]),
+          _vm._v(" "),
+          _c("template", {slot: "body-simple"}, [
+              _vm._v(
+                  "\n\t\tSometimes it's nice to take a step away from the logical/analytical activities and do something more\n\t\tcreative.\n\t\tI've been learning "
+              ),
+              _c("a", {attrs: {href: "https://www.blender.org"}}, [
+                  _vm._v("Blender")
+              ]),
+              _vm._v(" for about a year now.\n\t")
+          ]),
       _vm._v(" "),
       _c("template", { slot: "body-full" }, [
-        _vm._v("\n\t\tSoon to come, my favorite renders so far\n\n\n\t")
+          _vm._v("\n\t\tSoon to come, my favorite renders so far.\n\t\t"),
+          _c("img", {attrs: {src: "/images/twisty.png", alt: "Render0"}})
       ])
     ],
     2
@@ -1464,24 +1572,50 @@ var render = function() {
         _c("h4", [_vm._v("I'm interested in Game AI for two reasons:")]),
         _vm._v(" "),
         _c("ul", { staticClass: "list-reset" }, [
-          _c("li", [_vm._v("Can I make exploit them to win?")]),
-          _vm._v(" "),
-          _c("li", [_vm._v("Can I make them even smarter?")])
+            _c("li", [_vm._v("Can I exploit them for my benefit?")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("Can I make them even smarter?")])
         ]),
         _vm._v(" "),
         _c("br"),
-        _vm._v(" "),
-        _c("h4", [_vm._v("Some AIs I've already implemented")]),
-        _vm._v(" "),
-        _c("ul", { staticClass: "list-reset" }, [
-          _c("li", [_vm._v("Checkers")]),
           _vm._v(" "),
-          _c("li", [_vm._v("Tic Tac Toe")]),
+          _c("h4", [_vm._v("Some AIs I've already implemented")]),
           _vm._v(" "),
-          _c("li", [_vm._v("Chess")]),
+          _c("ul", {staticClass: "list-reset"}, [
+              _c("li", [_vm._v("Checkers")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Tic Tac Toe")]),
+              _vm._v(" "),
+              _c("li", [_vm._v("Chess")]),
+              _vm._v(" "),
+              _c("li", [
+                  _vm._v("3D game AI using Unity\n\t\t\t\t"),
+                  _c(
+                      "a",
+                      {
+                          attrs: {
+                              href:
+                                  "https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html"
+                          }
+                      },
+                      [_vm._v("Nav-mesh")]
+                  )
+              ])
+          ]),
           _vm._v(" "),
-          _c("li", [_vm._v("3D game AI using Unity Nav-mesh")])
-        ])
+          _c("br"),
+          _vm._v(" "),
+          _c("h4", [_vm._v("The most fascinating things I've done with AI")]),
+          _vm._v(" "),
+          _c("ul", {staticClass: "list-reset"}, [
+              _c("li", [
+                  _c(
+                      "a",
+                      {attrs: {href: "https://en.wikipedia.org/wiki/Negamax"}},
+                      [_vm._v("Negamax")]
+                  )
+              ])
+          ])
       ])
     ],
     2
@@ -1539,17 +1673,31 @@ var render = function() {
         _vm._v(" "),
         _c("h4", [_vm._v("What was your contribution?")]),
         _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "\n\t\t\tMy main contribution to the project was the first phase of the light calibration. I was tasked to set up\n\t\t\tthe\n\t\t\tinter-process communication and figure out how to detect LEDs and extract their coordinates in the\n\t\t\timage.\n\t\t\t"
-          ),
           _c("br"),
-          _vm._v(
-            "\n\t\t\tI used OpenCV for the image processing. After the steep initial learning curve, this ended up being a\n\t\t\treally elegant solution.\n\t\t"
-          )
-        ])
+          _vm._v(" "),
+          _c("p", [
+              _vm._v(
+                  "\n\t\t\tMy main contribution to the project was the first phase of the light calibration. I was tasked to set up\n\t\t\tthe\n\t\t\tinter-process communication and figure out how to detect LEDs and extract their coordinates in the\n\t\t\timage.\n\t\t\t"
+              ),
+              _c("br"),
+              _vm._v(
+                  "\n\t\t\tI used OpenCV for the image processing. After the steep initial learning curve, this ended up being a\n\t\t\treally elegant solution.\n\t\t"
+              )
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("h4", [_vm._v("What did you learn?")]),
+          _vm._v(" "),
+          _c("p", [
+              _vm._v(
+                  "\n\t\t\tThe biggest take away from the project was the importance of Python virtual environments.\n\t\t\tWe did not originally use them and ran into many issues with conflicting Python version installations.\n\t\t\t"
+              ),
+              _c("br"),
+              _vm._v(
+                  "\n\t\t\tThis project was also a great learning experience on the importance of documentation and team communication.\n\t\t"
+              )
+          ])
       ])
     ],
     2
@@ -17354,10 +17502,11 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\sass\app.scss */"./resources/sass/app.scss");
+            __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\js\app.js */"./resources/js/app.js");
+            module.exports = __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
-/***/ })
+            /***/
+        })
 
 /******/ });

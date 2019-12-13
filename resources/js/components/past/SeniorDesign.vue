@@ -29,6 +29,15 @@
 				I used OpenCV for the image processing. After the steep initial learning curve, this ended up being a
 				really elegant solution.
 			</p>
+			<br/>
+			<h4>What did you learn?</h4>
+			<p>
+				The biggest take away from the project was the importance of Python virtual environments.
+				We did not originally use them and ran into many issues with conflicting Python version installations.
+				<br/>
+				This project was also a great learning experience on the importance of documentation and team
+				communication.
+			</p>
 		</template>
 	</card>
 </template>

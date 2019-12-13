@@ -12,7 +12,7 @@
 	<div class="container px-8">
 		<header class="py-6 mb-8">
 			<h1 class="text-black">
-				jagrace418
+				<a href="/">jagrace418</a>
 			</h1>
 		</header>
 		<main class="flex flex-1">
@@ -20,7 +20,7 @@
 				<section class="mb-8">
 					<h5 class="uppercase font-bold mb-4 text-base">Main</h5>
 					<ul class="list-reset">
-						<li class="text-sm leading-loose">
+						<li class="text-sm leading-loose fake">
 							<router-link class="text-black" to="/" exact>Home</router-link>
 						</li>
 						<li class="text-sm leading-loose">
@@ -57,7 +57,7 @@
 					</ul>
 				</section>
 			</aside>
-			<div class="primary">
+			<div class="primary w-3/4">
 				<router-view></router-view>
 			</div>
 		</main>

@@ -1,6 +1,11 @@
 <template>
 	<card>
 		<template slot="title">Unity3D</template>
+		<template slot="mainImage">
+			<a href="https://unity.com">
+				Pending permission to use Unity Logo
+			</a>
+		</template>
 		<template slot="body-simple">
 			I play video games. Why not code some?
 		</template>
