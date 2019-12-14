@@ -4,6 +4,7 @@ import Unity3D from "./components/current/Unity3D";
 import Blender from "./components/past/Blender";
 import GameAI from "./components/past/GameAI";
 import SeniorDesign from "./components/past/SeniorDesign";
+import School from "./components/past/School";
 
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
@@ -39,6 +40,10 @@ export default {
         {
             path: '/ai',
             component: GameAI
+        },
+        {
+            path: '/school',
+            component: School
         },
         {
             path: '/senior',

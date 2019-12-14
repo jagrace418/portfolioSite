@@ -47,6 +47,9 @@
 					<h5 class="uppercase font-bold mb-4 text-base">Past Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
+							<router-link to="/school">School Projects</router-link>
+						</li>
+						<li class="text-sm leading-loose">
 							<router-link to="/senior">Senior Design Project</router-link>
 						</li>
 						<li class="text-sm leading-loose">

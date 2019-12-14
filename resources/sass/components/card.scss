@@ -1,3 +1,19 @@
 .card {
   @apply .bg-card .p-5 .rounded-lg .shadow;
+
+  h4 {
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .theme-dark & {
+    @apply .shadow-inverse;
+  }
+
+  a {
+    text-decoration: green underline;
+  }
 }
