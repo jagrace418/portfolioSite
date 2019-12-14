@@ -10,7 +10,7 @@
 <body class="font-sans theme-dark">
 <div id="app" class="bg-page">
 	<div class="container px-8">
-		<header class="py-6 mb-8 flex justify-between">
+		<header class="py-6 flex justify-between">
 			<h1 class="text-black">
 				<a href="/">jagrace418</a>
 			</h1>
@@ -66,4 +66,5 @@
 </div>
 <script src="/js/app.js"></script>
 </body>
+
 </html>
