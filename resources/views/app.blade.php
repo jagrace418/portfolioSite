@@ -7,13 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="/css/app.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
-<body class="font-sans">
-<div id="app">
+<body class="font-sans theme-dark">
+<div id="app" class="bg-page">
 	<div class="container px-8">
-		<header class="py-6 mb-8">
+		<header class="py-6 mb-8 flex justify-between">
 			<h1 class="text-black">
 				<a href="/">jagrace418</a>
 			</h1>
+			<theme-switcher></theme-switcher>
 		</header>
 		<main class="flex flex-1">
 			<aside class="w-64 pt-8">
@@ -21,13 +22,13 @@
 					<h5 class="uppercase font-bold mb-4 text-base">Main</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose fake">
-							<router-link class="text-black" to="/" exact>Home</router-link>
+							<router-link to="/" exact>Home</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/me" exact>Me</router-link>
+							<router-link to="/me" exact>Me</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/why" exact>Why 418?</router-link>
+							<router-link to="/why" exact>Why 418?</router-link>
 						</li>
 					</ul>
 				</section>
@@ -35,10 +36,10 @@
 					<h5 class="uppercase font-bold mb-4 text-base">Current Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/laravel">Laravel</router-link>
+							<router-link to="/laravel">Laravel</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/unity">Unity3D</router-link>
+							<router-link to="/unity">Unity3D</router-link>
 						</li>
 					</ul>
 				</section>
@@ -46,13 +47,13 @@
 					<h5 class="uppercase font-bold mb-4 text-base">Past Work</h5>
 					<ul class="list-reset">
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/senior">Senior Design Project</router-link>
+							<router-link to="/senior">Senior Design Project</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/ai">Game AI</router-link>
+							<router-link to="/ai">Game AI</router-link>
 						</li>
 						<li class="text-sm leading-loose">
-							<router-link class="text-black" to="/blender">Blender Renders</router-link>
+							<router-link to="/blender">Blender Renders</router-link>
 						</li>
 					</ul>
 				</section>
@@ -61,8 +62,6 @@
 				<router-view></router-view>
 			</div>
 		</main>
-
-		<hr>
 	</div>
 </div>
 <script src="/js/app.js"></script>

@@ -22,7 +22,7 @@
 				<li class="list-reset">
 					<ul>
 						<li>Camera functionality</li>
-						<li>Body (aka arms and hands) Models and animations</li>
+						<li>Body (arm and hand) models and animations</li>
 						<li>Weapons with bullet physics</li>
 						<li>Climbing Mechanics</li>
 					</ul>

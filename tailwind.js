@@ -45,6 +45,7 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 
 let colors = {
     'transparent': 'transparent',
+    default: 'var(--text-default-color)',
 
     'black': '#222222',
     'grey-darkest': '#4A4A4A',
@@ -365,7 +366,12 @@ module.exports = {
     |
     */
 
-    backgroundColors: colors,
+    backgroundColors: {
+        page: 'var(--page-background-color)',
+        card: 'var(--card-background-color)',
+        button: 'var(--button-background-color)',
+        header: 'var(--header-background-color)',
+    },
 
 
     /*

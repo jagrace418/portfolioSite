@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div class="card">
 		<div class="flex justify-between">
-			<h1 class="font-normal text-3xl text-grey-darkest leading-none">
+			<h1 class="font-normal text-3xl leading-none">
 				<slot name="title">
 					Under Construction
 				</slot>

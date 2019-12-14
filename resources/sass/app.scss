@@ -4,12 +4,14 @@
 
 @tailwind utilities;
 
-a {
-  text-decoration: none;
-}
+@import "themes/light";
+@import "themes/dark";
+@import "components/card";
+@import "components/link";
+@import "components/button";
 
-li {
-  margin-bottom: 4px;
+body, a {
+  @apply .text-default;
 }
 
 container {
