@@ -4,7 +4,10 @@
 		<button v-for="(color, theme) in themes"
 				class="rounded-full w-4 h-4 mr-2 bg-default border focus:outline-none"
 				:class="{'border-accent' : selectedTheme === theme}"
-				:style="{backgroundColor: color}"
+				:style="{
+		    		backgroundColor: color ,
+		    		pointerEvents : selectedTheme === theme ? 'none':''
+				}"
 				@click="selectedTheme = theme"/>
 	</div>
 </template>
@@ -32,8 +35,6 @@
                 localStorage.setItem('theme', this.selectedTheme);
             }
         },
-
-
         name: "ThemeSwitcher"
     }
 </script>

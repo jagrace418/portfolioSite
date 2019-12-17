@@ -1,21 +1,17 @@
 <template>
 	<div class="card">
 		<div class="flex justify-between">
-			<h1 class="font-normal text-3xl leading-none">
-				<slot name="title">
-					Under Construction
-				</slot>
+			<h1 class="font-normal text-3xl leading-none flex items-center">
+				<slot name="title"/>
 			</h1>
 			<slot name="mainImage"/>
 		</div>
-		<div class="mt-4">
+		<div class="mt-4 center">
 			<p>
-				<slot name="body-simple" class="text-center">
-					More details soon to come...
-				</slot>
+				<slot name="body-simple"/>
 			</p>
 			<div class="mt-4">
-				<slot name="body-full" class="text-center"/>
+				<slot name="body-full"/>
 			</div>
 		</div>
 	</div>
@@ -33,5 +29,11 @@
 </script>
 
 <style scoped>
-
+	img{
+		max-width: 400px;
+		height: auto;
+	}
+	.center{
+		text-align: center;
+	}
 </style>

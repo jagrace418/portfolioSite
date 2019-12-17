@@ -5384,7 +5384,7 @@ table {
 
 .card a {
   -webkit-text-decoration: green underline;
-  text-decoration: green underline;
+          text-decoration: green underline;
 }
 
 a {
