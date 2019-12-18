@@ -17,7 +17,18 @@
 			<theme-switcher></theme-switcher>
 		</header>
 		<main class="flex flex-1">
-			<side-nav></side-nav>
+			<side-nav
+					:links="[
+					{'id': 0, 'text': 'Home', 'url': '/'},
+					{'id': 1, 'text': 'Me', 'url': '/me'},
+					{'id': 2, 'text': 'Why 418?', 'url': '/why'},
+					{'id': 3, 'text': 'Laravel', 'url': '/laravel'},
+					{'id': 4, 'text': 'Unity', 'url': '/unity'},
+					{'id': 5, 'text': 'School', 'url': '/school'},
+					{'id': 6, 'text': 'Senior Design', 'url': '/senior'},
+					{'id': 7, 'text': 'Games and AI', 'url': '/ai'},
+					{'id': 8, 'text': 'Blender', 'url': '/blender'},
+					]"></side-nav>
 			{{--			<aside class="w-64 pt-8">--}}
 			{{--				<section class="mb-8">--}}
 			{{--					<h5 class="uppercase font-bold mb-4 text-base">Main</h5>--}}

@@ -3,8 +3,9 @@
 		<div class="sidebar-backdrop" @click="closeSidebarPanel" v-if="isPanelOpen"></div>
 		<transition name="slide">
 			<div v-if="isPanelOpen"
-				 class="sidebar-panel">
-				<slot></slot>
+				 class="sidebar-panel flex justify-between">
+				<slot/>
+				<burger-button/>
 			</div>
 		</transition>
 	</div>
@@ -12,9 +13,11 @@
 
 <script>
 	import {store, mutations} from "../../store";
+    import BurgerButton from "./BurgerButton";
 
     export default {
         name: "SideMenu",
+        components: {BurgerButton},
         computed:{
             isPanelOpen(){
                 return store.isNavOpen

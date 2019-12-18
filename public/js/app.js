@@ -485,6 +485,8 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../store */ "./resources/js/store.js");
+/* harmony import */ var _BurgerButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BurgerButton */ "./resources/js/components/base/BurgerButton.vue");
+//
 //
 //
 //
@@ -498,8 +500,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "SideMenu",
+  components: {
+    BurgerButton: _BurgerButton__WEBPACK_IMPORTED_MODULE_1__["default"]
+  },
   computed: {
     isPanelOpen: function isPanelOpen() {
       return _store__WEBPACK_IMPORTED_MODULE_0__["store"].isNavOpen;
@@ -523,6 +529,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SideMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SideMenu */ "./resources/js/components/base/SideMenu.vue");
 /* harmony import */ var _BurgerButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BurgerButton */ "./resources/js/components/base/BurgerButton.vue");
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../store */ "./resources/js/store.js");
 //
 //
 //
@@ -541,7 +548,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -549,6 +556,18 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     BurgerButton: _BurgerButton__WEBPACK_IMPORTED_MODULE_1__["default"],
     SideMenu: _SideMenu__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  props: {
+    links: {
+      type: Array,
+      required: false,
+      "default": function _default() {
+        return [];
+      }
+    }
+  },
+  methods: {
+    toggleNav: _store__WEBPACK_IMPORTED_MODULE_2__["mutations"].toggleNav
   }
 });
 
@@ -1123,7 +1142,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "html[data-v-e44c872c] {\n  height: 100%;\n  overflow: hidden;\n}\nbody[data-v-e44c872c] {\n  border: 0;\n  margin: 0;\n  padding: 0;\n  font-family: 'Lato';\n  height: 100%;\n  background: rgb(101, 31, 87);\n  background: linear-gradient(45deg, rgba(101, 31, 87, 1) 0%, rgba(225, 113, 87, 1) 48%, rgba(249, 248, 113, 1) 100%);\n}\n.logo[data-v-e44c872c] {\n  align-self: center;\n  color: #fff;\n  font-weight: bold;\n  font-family: 'Lato';\n}\n.main-nav[data-v-e44c872c] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n  padding: .5rem .8rem;\n}\nul.sidebar-panel-nav[data-v-e44c872c] {\n  list-style-type: none;\n}\nul.sidebar-panel-nav > li > a[data-v-e44c872c] {\n  color: #fff;\n  text-decoration: none;\n  font-size: 1.5rem;\n  display: block;\n  padding-bottom: .5em;\n}\n", ""]);
+exports.push([module.i, "a[data-v-e44c872c] {\n  color: #fff;\n  text-decoration: none;\n  font-size: 1.5rem;\n  display: block;\n  padding-bottom: .5em;\n}\n", ""]);
 
 // exports
 
@@ -2960,7 +2979,12 @@ var render = function() {
       _vm._v(" "),
       _c("transition", { attrs: { name: "slide" } }, [
         _vm.isPanelOpen
-          ? _c("div", { staticClass: "sidebar-panel" }, [_vm._t("default")], 2)
+          ? _c(
+              "div",
+              { staticClass: "sidebar-panel flex justify-between" },
+              [_vm._t("default"), _vm._v(" "), _c("burger-button")],
+              2
+            )
           : _vm._e()
       ])
     ],
@@ -2995,27 +3019,30 @@ var render = function() {
     [
       _c(
         "nav",
-        { staticClass: "main-nav" },
-        [
-          _c("div", { staticClass: "logo" }, [
-            _vm._v("\n\t\t\tmy.company\n\t\t")
-          ]),
-          _vm._v(" "),
-          _c("burger-button")
-        ],
+        { staticClass: "flex justify-between" },
+        [_c("burger-button")],
         1
       ),
       _vm._v(" "),
       _c("side-menu", [
-        _c("ul", { staticClass: "sidebar-panel-nav" }, [
-          _c("li", [_c("a", { attrs: { href: "#home" } }, [_vm._v("Home")])]),
-          _vm._v(" "),
-          _c("li", [_c("a", { attrs: { href: "#about" } }, [_vm._v("About")])]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#contact" } }, [_vm._v("Contact")])
-          ])
-        ])
+        _c(
+          "ul",
+          { staticStyle: { "list-style-type": "none" } },
+          _vm._l(_vm.links, function(link) {
+            return _c(
+              "li",
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: link.url }, on: { click: _vm.toggleNav } },
+                  [_vm._v("\n\t\t\t\t\t" + _vm._s(link.text) + "\n\t\t\t\t")]
+                )
+              ],
+              1
+            )
+          }),
+          0
+        )
       ])
     ],
     1
