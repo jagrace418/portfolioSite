@@ -5364,12 +5364,14 @@ table {
   --page-background-color: #f5f6f9;
   --card-background-color: white;
   --text-default-color: black;
+  --header-background-color: black;
 }
 
 .theme-dark {
   --page-background-color: black;
   --card-background-color: #4a4a4a;
   --text-default-color: white;
+  --header-background-color: white;
 }
 
 .card {

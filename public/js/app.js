@@ -390,6 +390,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "BurgerButton",
@@ -1061,7 +1063,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".hidden[data-v-7548b16a] {\n  visibility: hidden;\n}\nbutton[data-v-7548b16a] {\n  cursor: pointer;\n}\n\n/* remove blue outline */\nbutton[data-v-7548b16a]:focus {\n  outline: 0;\n}\n.burger-button[data-v-7548b16a] {\n  position: relative;\n  height: 30px;\n  width: 32px;\n  display: block;\n  z-index: 999;\n  border: 0;\n  border-radius: 0;\n  background-color: transparent;\n  pointer-events: all;\n  -webkit-transition: -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n}\n.burger-bar[data-v-7548b16a] {\n  background-color: #130f40;\n  position: absolute;\n  top: 50%;\n  right: 6px;\n  left: 6px;\n  height: 2px;\n  width: auto;\n  margin-top: -1px;\n  -webkit-transition: opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n}\n.burger-bar--1[data-v-7548b16a] {\n  -webkit-transform: translateY(-6px);\n          transform: translateY(-6px);\n}\n.burger-bar--2[data-v-7548b16a] {\n  -webkit-transform-origin: 100% 50%;\n          transform-origin: 100% 50%;\n  -webkit-transform: scaleX(.8);\n          transform: scaleX(.8);\n}\n.burger-button:hover .burger-bar--2[data-v-7548b16a] {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n}\n.no-touchevents .burger-bar--2[data-v-7548b16a]:hover {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n}\n.burger-bar--3[data-v-7548b16a] {\n  -webkit-transform: translateY(6px);\n          transform: translateY(6px);\n}\n#burger.active .burger-button[data-v-7548b16a] {\n  -webkit-transform: rotate(-180deg);\n          transform: rotate(-180deg);\n}\n#burger.active .burger-bar[data-v-7548b16a] {\n  background-color: black;\n}\n#burger.active .burger-bar--1[data-v-7548b16a] {\n  -webkit-transform: rotate(45deg);\n          transform: rotate(45deg);\n}\n#burger.active .burger-bar--2[data-v-7548b16a] {\n  opacity: 0;\n}\n#burger.active .burger-bar--3[data-v-7548b16a] {\n  -webkit-transform: rotate(-45deg);\n          transform: rotate(-45deg);\n}\n", ""]);
+exports.push([module.i, ".burger-button[data-v-7548b16a] {\n  border: 0;\n  -webkit-transition: -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n}\n.burger-bar[data-v-7548b16a] {\n  top: 50%;\n  right: 6px;\n  left: 6px;\n  height: 2px;\n  margin-top: -1px;\n  -webkit-transition: opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n}\n.burger-bar--1[data-v-7548b16a] {\n  -webkit-transform: translateY(-6px);\n          transform: translateY(-6px);\n}\n.burger-bar--2[data-v-7548b16a] {\n  -webkit-transform-origin: 100% 50%;\n          transform-origin: 100% 50%;\n  -webkit-transform: scaleX(.8);\n          transform: scaleX(.8);\n}\n.burger-button:hover .burger-bar--2[data-v-7548b16a] {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n}\n.no-touchevents .burger-bar--2[data-v-7548b16a]:hover {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n}\n.burger-bar--3[data-v-7548b16a] {\n  -webkit-transform: translateY(6px);\n          transform: translateY(6px);\n}\n#burger.active .burger-button[data-v-7548b16a] {\n  -webkit-transform: rotate(-180deg);\n          transform: rotate(-180deg);\n}\n#burger.active .burger-bar[data-v-7548b16a] {\n  background-color: black;\n}\n#burger.active .burger-bar--1[data-v-7548b16a] {\n  -webkit-transform: rotate(45deg);\n          transform: rotate(45deg);\n}\n#burger.active .burger-bar--2[data-v-7548b16a] {\n  opacity: 0;\n}\n#burger.active .burger-bar--3[data-v-7548b16a] {\n  -webkit-transform: rotate(-45deg);\n          transform: rotate(-45deg);\n}\n", ""]);
 
 // exports
 
@@ -1118,7 +1120,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".slide-enter-active[data-v-0176028e],\n.slide-leave-active[data-v-0176028e] {\n  -webkit-transition: -webkit-transform .2s ease;\n  transition: -webkit-transform .2s ease;\n  transition: transform .2s ease;\n  transition: transform .2s ease, -webkit-transform .2s ease;\n}\n.slide-enter[data-v-0176028e],\n.slide-leave-to[data-v-0176028e] {\n  -webkit-transform: translateX(-100%);\n          transform: translateX(-100%);\n  -webkit-transition: all 150ms ease-in 0s;\n  transition: all 150ms ease-in 0s;\n}\n.sidebar-backdrop[data-v-0176028e] {\n  background: rgba(255, 255, 255, .6);\n}\n.sidebar-panel[data-v-0176028e] {\n  background: -webkit-gradient(linear, left top, left bottom, from(black), to(white));\n  background: linear-gradient(to bottom, black, white);\n}\n", ""]);
+exports.push([module.i, ".slide-enter-active[data-v-0176028e],\n.slide-leave-active[data-v-0176028e] {\n  -webkit-transition: -webkit-transform .2s ease;\n  transition: -webkit-transform .2s ease;\n  transition: transform .2s ease;\n  transition: transform .2s ease, -webkit-transform .2s ease;\n}\n.slide-enter[data-v-0176028e],\n.slide-leave-to[data-v-0176028e] {\n  -webkit-transform: translateX(-100%);\n          transform: translateX(-100%);\n  -webkit-transition: all 150ms ease-in 0s;\n  transition: all 150ms ease-in 0s;\n}\n.sidebar-backdrop[data-v-0176028e] {\n  background: rgba(255, 255, 255, .6);\n}\n", ""]);
 
 // exports
 
@@ -2793,15 +2795,22 @@ var staticRenderFns = [
     return _c(
       "button",
       {
-        staticClass: "burger-button",
+        staticClass:
+          "burger-button cursor-pointer relative block z-z rounded-none w-8 h-8",
         attrs: { type: "button", title: "Menu" }
       },
       [
-        _c("span", { staticClass: "burger-bar burger-bar--1" }),
+        _c("span", {
+          staticClass: "burger-bar bg-header absolute w-auto burger-bar--1"
+        }),
         _vm._v(" "),
-        _c("span", { staticClass: "burger-bar burger-bar--2" }),
+        _c("span", {
+          staticClass: "burger-bar bg-header absolute w-auto burger-bar--2"
+        }),
         _vm._v(" "),
-        _c("span", { staticClass: "burger-bar burger-bar--3" })
+        _c("span", {
+          staticClass: "burger-bar bg-header absolute w-auto burger-bar--3"
+        })
       ]
     )
   }
@@ -2930,7 +2939,7 @@ var render = function() {
               "div",
               {
                 staticClass:
-                  "sidebar-panel inset-top-left py-8 px-5 h-screen overflow-y-auto fixed w-64 z-z flex justify-between"
+                  "bg-card inset-top-left py-8 px-5 h-screen overflow-y-auto fixed w-64 z-z flex justify-between"
               },
               [_vm._t("default"), _vm._v(" "), _c("burger-button")],
               2
@@ -2986,7 +2995,8 @@ var render = function() {
                 _c(
                   "router-link",
                   {
-                    staticClass: "text-2xl block pb-3 whitespace-no-wrap",
+                    staticClass:
+                      "text-2xl block pb-3 whitespace-no-wrap text-default",
                     attrs: { to: link.url, exact: "" }
                   },
                   [_vm._v("\n\t\t\t\t\t" + _vm._s(link.text) + "\n\t\t\t\t")]

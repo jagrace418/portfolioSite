@@ -3,10 +3,12 @@
 		 :class="{ 'active' : isBurgerActive }"
 		 @click.prevent="toggle">
 		<slot>
-			<button type="button" class="burger-button" title="Menu">
-				<span class="burger-bar burger-bar--1"/>
-				<span class="burger-bar burger-bar--2"/>
-				<span class="burger-bar burger-bar--3"/>
+			<button type="button"
+					class="burger-button cursor-pointer relative block z-z rounded-none w-8 h-8"
+					title="Menu">
+				<span class="burger-bar bg-header absolute w-auto burger-bar--1"/>
+				<span class="burger-bar bg-header absolute w-auto burger-bar--2"/>
+				<span class="burger-bar bg-header absolute w-auto burger-bar--3"/>
 			</button>
 		</slot>
 	</div>
@@ -31,40 +33,17 @@
 </script>
 
 <style scoped>
-	.hidden {
-		visibility: hidden;
-	}
-
-	button {
-		cursor: pointer;
-	}
-
-	/* remove blue outline */
-	button:focus {
-		outline: 0;
-	}
 
 	.burger-button {
-		position: relative;
-		height: 30px;
-		width: 32px;
-		display: block;
-		z-index: 999;
 		border: 0;
-		border-radius: 0;
-		background-color: transparent;
-		pointer-events: all;
 		transition: transform .6s cubic-bezier(.165, .84, .44, 1);
 	}
 
 	.burger-bar {
-		background-color: #130f40;
-		position: absolute;
 		top: 50%;
 		right: 6px;
 		left: 6px;
 		height: 2px;
-		width: auto;
 		margin-top: -1px;
 		transition: transform .6s cubic-bezier(.165, .84, .44, 1), opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1);
 	}

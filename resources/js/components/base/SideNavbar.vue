@@ -7,7 +7,7 @@
 		<side-menu>
 			<ul style="list-style-type: none">
 				<li v-for="link in links" @click="toggleNav">
-					<router-link  :to="link.url" class="text-2xl block pb-3 whitespace-no-wrap" exact>
+					<router-link  :to="link.url" class="text-2xl block pb-3 whitespace-no-wrap text-default" exact>
 						{{link.text}}
 					</router-link>
 				</li>

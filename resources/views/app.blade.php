@@ -29,50 +29,6 @@
 					{'id': 7, 'text': 'Games and AI', 'url': '/ai'},
 					{'id': 8, 'text': 'Blender', 'url': '/blender'},
 					]"></side-nav>
-			{{--			<aside class="w-64 pt-8">--}}
-			{{--				<section class="mb-8">--}}
-			{{--					<h5 class="uppercase font-bold mb-4 text-base">Main</h5>--}}
-			{{--					<ul class="list-reset">--}}
-			{{--						<li class="text-sm leading-loose fake">--}}
-			{{--							<router-link to="/" exact>Home</router-link>--}}
-			{{--						</li>--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/me" exact>Me</router-link>--}}
-			{{--						</li>--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/why" exact>Why 418?</router-link>--}}
-			{{--						</li>--}}
-			{{--					</ul>--}}
-			{{--				</section>--}}
-			{{--				<section class="mb-8">--}}
-			{{--					<h5 class="uppercase font-bold mb-4 text-base">Current Work</h5>--}}
-			{{--					<ul class="list-reset">--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/laravel">Laravel</router-link>--}}
-			{{--						</li>--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/unity">Unity3D</router-link>--}}
-			{{--						</li>--}}
-			{{--					</ul>--}}
-			{{--				</section>--}}
-			{{--				<section class="mb-8">--}}
-			{{--					<h5 class="uppercase font-bold mb-4 text-base">Past Work</h5>--}}
-			{{--					<ul class="list-reset">--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/school">School Projects</router-link>--}}
-			{{--						</li>--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/senior">Senior Design Project</router-link>--}}
-			{{--						</li>--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/ai">Game AI</router-link>--}}
-			{{--						</li>--}}
-			{{--						<li class="text-sm leading-loose">--}}
-			{{--							<router-link to="/blender">Blender Renders</router-link>--}}
-			{{--						</li>--}}
-			{{--					</ul>--}}
-			{{--				</section>--}}
-			{{--			</aside>--}}
 			<div class="primary w-3/4">
 				<router-view></router-view>
 			</div>
