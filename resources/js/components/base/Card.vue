@@ -20,11 +20,7 @@
 <script>
     export default {
         name: "Card",
-        computed: {
-            hasImageSlot() {
-                return this.$slots.mainImage;
-            }
-        }
+
     }
 </script>
 
