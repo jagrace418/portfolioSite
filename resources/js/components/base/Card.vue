@@ -1,12 +1,11 @@
 <template>
 	<div class="card">
 		<div class="flex justify-between">
-			<h1 class="font-normal text-3xl leading-none flex items-center">
+			<h1 class="font-normal text-3xl leading-none flex text-center">
 				<slot name="title"/>
 			</h1>
-			<slot name="mainImage"/>
 		</div>
-		<div class="mt-4 center">
+		<div class="mt-4 text-center">
 			<p>
 				<slot name="body-simple"/>
 			</p>
@@ -25,11 +24,5 @@
 </script>
 
 <style scoped>
-	img{
-		max-width: 400px;
-		height: auto;
-	}
-	.center{
-		text-align: center;
-	}
+
 </style>

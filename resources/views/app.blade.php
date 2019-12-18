@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full min-h-full">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,12 +7,12 @@
 	<link rel="stylesheet" type="text/css" href="/css/app.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
-<body class="font-sans theme-dark">
-<div id="app" class="bg-page">
+<body class="font-sans theme-dark text-default h-full min-h-full">
+<div id="app" class="bg-page h-full min-h-full">
 	<div class="container px-8">
 		<header class="py-6 flex justify-between">
-			<h1 class="text-black">
-				<a href="/">jagrace418</a>
+			<h1>
+				<a class="text-default" href="/">jagrace418</a>
 			</h1>
 			<theme-switcher></theme-switcher>
 		</header>

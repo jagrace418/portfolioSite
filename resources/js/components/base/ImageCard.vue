@@ -1,21 +1,22 @@
 <template>
-	<div class="card mb-4">
-		<h3 align="left">
+	<div class="card">
+		<h3 align="left" class="whitespace-no-wrap">
 			<slot name="title"/>
 		</h3>
 		<div class="flex justify-between items-center">
 			<slot name="content"/>
-			<slot name="image"/>
+			<img :src="imgUrl" alt="Image"/>
 		</div>
 	</div>
 </template>
 
 <script>
-    import Card from "./Card";
-
     export default {
         name: "SplitCard",
-        components: {Card}
+		props: {
+            imgUrl: String,
+			imgLocation: String,
+		},
     }
 </script>
 

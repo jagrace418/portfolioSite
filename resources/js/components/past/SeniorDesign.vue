@@ -65,7 +65,7 @@
 <script>
     import Card from "../base/Card";
     import MiniCard from "../base/MiniCard";
-    import SplitCard from "../base/SplitCard";
+    import SplitCard from "../base/ImageCard";
 
     export default {
         name: "SeniorDesign",

@@ -96,7 +96,6 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base/Card */ "./resources/js/components/base/Card.vue");
-/* harmony import */ var _base_MiniCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./base/MiniCard */ "./resources/js/components/base/MiniCard.vue");
 //
 //
 //
@@ -243,12 +242,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "About",
   components: {
-    MiniCard: _base_MiniCard__WEBPACK_IMPORTED_MODULE_1__["default"],
     Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
@@ -265,9 +296,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base/Card */ "./resources/js/components/base/Card.vue");
-//
-//
-//
 //
 //
 //
@@ -436,9 +464,39 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Card"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/ImageCard.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/base/ImageCard.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "SplitCard",
+  props: {
+    imgUrl: String,
+    imgLocation: String
+  }
 });
 
 /***/ }),
@@ -565,38 +623,6 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     toggleNav: _store__WEBPACK_IMPORTED_MODULE_2__["mutations"].toggleNav
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/SplitCard.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/base/SplitCard.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card */ "./resources/js/components/base/Card.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "SplitCard",
-  components: {
-    Card: _Card__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
 });
 
@@ -953,7 +979,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../base/Card */ "./resources/js/components/base/Card.vue");
 /* harmony import */ var _base_MiniCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../base/MiniCard */ "./resources/js/components/base/MiniCard.vue");
-/* harmony import */ var _base_SplitCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../base/SplitCard */ "./resources/js/components/base/SplitCard.vue");
+/* harmony import */ var _base_ImageCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../base/ImageCard */ "./resources/js/components/base/ImageCard.vue");
 //
 //
 //
@@ -1024,7 +1050,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "SeniorDesign",
   components: {
-    SplitCard: _base_SplitCard__WEBPACK_IMPORTED_MODULE_2__["default"],
+    SplitCard: _base_ImageCard__WEBPACK_IMPORTED_MODULE_2__["default"],
     MiniCard: _base_MiniCard__WEBPACK_IMPORTED_MODULE_1__["default"],
     Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
   }
@@ -1044,7 +1070,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "h4[data-v-fb05e49c] {\n  padding-top: 10px;\n}\n", ""]);
+exports.push([module.i, "card[data-v-fb05e49c] {\n  margin: 5px 5px 10px;\n}\n", ""]);
 
 // exports
 
@@ -1064,25 +1090,6 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, ".burger-button[data-v-7548b16a] {\n  border: 0;\n  -webkit-transition: -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n}\n.burger-bar[data-v-7548b16a] {\n  top: 50%;\n  right: 6px;\n  left: 6px;\n  height: 2px;\n  margin-top: -1px;\n  -webkit-transition: opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1);\n  transition: transform .6s cubic-bezier(.165, .84, .44, 1), opacity .3s cubic-bezier(.165, .84, .44, 1), background-color .6s cubic-bezier(.165, .84, .44, 1), -webkit-transform .6s cubic-bezier(.165, .84, .44, 1);\n}\n.burger-bar--1[data-v-7548b16a] {\n  -webkit-transform: translateY(-6px);\n          transform: translateY(-6px);\n}\n.burger-bar--2[data-v-7548b16a] {\n  -webkit-transform-origin: 100% 50%;\n          transform-origin: 100% 50%;\n  -webkit-transform: scaleX(.8);\n          transform: scaleX(.8);\n}\n.burger-button:hover .burger-bar--2[data-v-7548b16a] {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n}\n.no-touchevents .burger-bar--2[data-v-7548b16a]:hover {\n  -webkit-transform: scaleX(1);\n          transform: scaleX(1);\n}\n.burger-bar--3[data-v-7548b16a] {\n  -webkit-transform: translateY(6px);\n          transform: translateY(6px);\n}\n#burger.active .burger-button[data-v-7548b16a] {\n  -webkit-transform: rotate(-180deg);\n          transform: rotate(-180deg);\n}\n#burger.active .burger-bar[data-v-7548b16a] {\n  background-color: black;\n}\n#burger.active .burger-bar--1[data-v-7548b16a] {\n  -webkit-transform: rotate(45deg);\n          transform: rotate(45deg);\n}\n#burger.active .burger-bar--2[data-v-7548b16a] {\n  opacity: 0;\n}\n#burger.active .burger-bar--3[data-v-7548b16a] {\n  -webkit-transform: rotate(-45deg);\n          transform: rotate(-45deg);\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "img[data-v-9392721a] {\n  max-width: 400px;\n  height: auto;\n}\n.center[data-v-9392721a] {\n  text-align: center;\n}\n", ""]);
 
 // exports
 
@@ -1646,36 +1653,6 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./BurgerButton.vue?vue&type=style&index=0&id=7548b16a&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/BurgerButton.vue?vue&type=style&index=0&id=7548b16a&scoped=true&lang=css&");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -2356,244 +2333,292 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "card",
-    [
-      _c("template", { slot: "title" }, [_vm._v("About Me")]),
-      _vm._v(" "),
-      _c("template", { slot: "mainImage" }, [
+  return _c("div", { staticClass: "card" }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "md:flex md:flex-wrap" },
+      [
         _c(
-          "a",
-          { attrs: { href: "https://www.linkedin.com/in/jacobisu19/" } },
-          [_c("img", { attrs: { src: "/images/selfie.jpg", alt: "Jake" } })]
-        )
-      ]),
-      _vm._v(" "),
-      _c("template", { slot: "body-simple" }, [
-        _vm._v("\n\t\tMy name is Jake and I'm a software engineer.\n\t")
-      ]),
-      _vm._v(" "),
-      _c(
-        "template",
-        { slot: "body-full" },
-        [
-          _c(
-            "mini-card",
-            [
-              _c("template", { slot: "title" }, [
-                _vm._v("How did you get into software engineering?")
-              ]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tEver since I was young I would take things apart to see what's inside. When I was young, the\n\t\t\t\t\tlocal\n\t\t\t\t\tnewspaper asked what I wanted to be when i grew up. I told them 'I want to be a sci-ventor' (My\n\t\t\t\t\tpersonal\n\t\t\t\t\tcombination of scientist and inventor). All these years later, I'd say I did pretty good at\n\t\t\t\t\tmeeting that\n\t\t\t\t\tgoal.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tIn high school I took a Java programming class. That was my first real exposure to software\n\t\t\t\t\tdevelopment.\n\t\t\t\t\tThe final project was to create anything you wanted, so my partner and I created a Pac Man\n\t\t\t\t\tclone. This\n\t\t\t\t\twas also the start of my fascination with AI. I spent a lot of time reading how the original AI\n\t\t\t\t\tworked\n\t\t\t\t\tin the game and did my best to recreate it.\n\t\t\t\t"
-                  )
-                ])
-              ])
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c(
-            "mini-card",
-            [
-              _c("template", { slot: "title" }, [
-                _vm._v("What languages do you know?")
-              ]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("h4", [_vm._v("Extremely Comfortable")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tThese are languages I've been using for at least 3 years and feel confident that I can read and\n\t\t\t\t\twrite\n\t\t\t\t\tjust about anything with them.\n\t\t\t\t"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("PHP")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Java")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("JavaScript/HTML/CSS")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("C#")])
-                ]),
-                _vm._v(" "),
-                _c("h4", [_vm._v("Moderately Comfortable")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tThese are languages I haven't used for extended periods of time but still feel confident I could\n\t\t\t\t\tpick them up and use them with very little difficulty.\n\t\t\t\t"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("C")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("C++")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Python")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Bash")])
-                ]),
-                _vm._v(" "),
-                _c("h4", [_vm._v("Everything Else")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tThe rest of these languages I have at least written a 'Hello World' in. Some for curiosity, some\n\t\t\t\t\tfor little mini-projects. But I do not feel very comfortable with them and it would take some\n\t\t\t\t\twork to get to a point that I can do anything impressive with them.\n\t\t\t\t"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("Haskell")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("ASM")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Verilog")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("R")])
-                ])
-              ])
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c(
-            "mini-card",
-            [
-              _c("template", { slot: "title" }, [
-                _vm._v("Is that all you know?")
-              ]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tNo! I haven't even talked about the other frameworks and technologies I've been exposed to.\n\t\t\t\t"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("h4", [_vm._v("Most Used")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tEach of these are something I've done for work or are my go-to technologies when developing\n\t\t\t\t\tsomething for myself.\n\t\t\t\t"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("Zend 2")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Composer")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("MySQL")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Laravel")])
-                ]),
-                _vm._v(" "),
-                _c("h4", [_vm._v("Previous Exposure")]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tThis is a catch-all for everything else I've been exposed to. I don't have huge familiarity with\n\t\t\t\t\tthese but have at least been exposed to them and done something with them before.\n\t\t\t\t"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("Angular.js 1")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("React.js")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Node.js")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Docker")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("ANTLR")])
-                ])
-              ])
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c(
-            "mini-card",
-            [
-              _c("template", { slot: "title" }, [
-                _vm._v("What do you do for fun?")
-              ]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tMost of my time the past few years has been spent on work or school. When I'm not doing either\n\t\t\t\t\tof those,\n\t\t\t\t\tI try to get outside and take in some fresh air and sunlight.\n\t\t\t\t"
-                  )
-                ]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("Cook")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Read")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Write code")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Play video games")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Hike")])
-                ])
-              ])
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c(
-            "mini-card",
-            [
-              _c("template", { slot: "title" }, [_vm._v("Favorite...")]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("h4", [_vm._v("Video Games")]),
-                _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("Destiny 2")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Red Dead Redemption 2")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Hitman 2")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Cuphead")])
-                ]),
-                _vm._v(" "),
+          "card",
+          { staticClass: "md:w-1/2" },
+          [
+            _c("template", { slot: "title" }, [
+              _vm._v("What kind of education do you have?")
+            ]),
+            _vm._v(" "),
+            _c("template", { slot: "body-simple" }, [
+              _vm._v("\n\t\t\t\tB.A. Software Engineering "),
+              _c("br"),
+              _vm._v(" I.S.U. "),
+              _c("br"),
+              _vm._v(" Ames, IA "),
+              _c("br"),
+              _vm._v("\n\t\t\t\tGeneral Business Minor\n\t\t\t")
+            ])
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "card",
+          { staticClass: "md:w-1/2 p-2" },
+          [
+            _c("template", { slot: "title" }, [
+              _vm._v(
+                "\n\t\t\t\tHow did you get into software engineering?\n\t\t\t"
+              )
+            ]),
+            _vm._v(" "),
+            _c("template", { slot: "body-full" }, [
+              _c("p", [
+                _vm._v(
+                  "\n\t\t\t\t\tEver since I was young I would take things apart to see what's inside. When I was young, the\n\t\t\t\t\tlocal\n\t\t\t\t\tnewspaper asked what I wanted to be when i grew up. I told them 'I want to be a sci-ventor' (My\n\t\t\t\t\tpersonal\n\t\t\t\t\tcombination of scientist and inventor). All these years later, I'd say I did pretty good at\n\t\t\t\t\tmeeting that\n\t\t\t\t\tgoal.\n\t\t\t\t\t"
+                ),
                 _c("br"),
+                _vm._v(
+                  "\n\t\t\t\t\tIn high school I took a Java programming class. That was my first real exposure to software\n\t\t\t\t\tdevelopment.\n\t\t\t\t\tThe final project was to create anything you wanted, so my partner and I created a Pac Man\n\t\t\t\t\tclone. This\n\t\t\t\t\twas also the start of my fascination with AI. I spent a lot of time reading how the original AI\n\t\t\t\t\tworked\n\t\t\t\t\tin the game and did my best to recreate it.\n\t\t\t\t"
+                )
+              ])
+            ])
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "card",
+          { staticClass: "md:w-1/2 p-2" },
+          [
+            _c("template", { slot: "title" }, [
+              _vm._v("What languages do you know?")
+            ]),
+            _vm._v(" "),
+            _c("template", { slot: "body-full" }, [
+              _c("div", { staticClass: "flex flex-wrap" }, [
+                _c("div", { staticClass: "lg:w-1/2 mb-4" }, [
+                  _c("h4", [_vm._v("Extremely Comfortable")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t\tThese are languages I've been using for at least 3 years and feel confident that I can\n\t\t\t\t\t\t\tread and\n\t\t\t\t\t\t\twrite\n\t\t\t\t\t\t\tjust about anything with them.\n\t\t\t\t\t\t"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", [
+                    _c("li", [_vm._v("PHP")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Java")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("JavaScript/ HTML/CSS")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("C#")])
+                  ])
+                ]),
                 _vm._v(" "),
-                _c("h4", [_vm._v("TV Shows")]),
+                _c("div", { staticClass: "lg:w-1/2 mb-4" }, [
+                  _c("h4", [_vm._v("Moderately Comfortable")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t\tThese are languages I haven't used for extended periods of time but still feel confident\n\t\t\t\t\t\t\tI could\n\t\t\t\t\t\t\tpick them up and use them with very little difficulty.\n\t\t\t\t\t\t"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", [
+                    _c("li", [_vm._v("C")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("C++")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Python")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Bash")])
+                  ])
+                ]),
                 _vm._v(" "),
-                _c("ul", [
-                  _c("li", [_vm._v("Mr Robot")]),
+                _c("div", { staticClass: "lg:w-1/2" }, [
+                  _c("h4", [_vm._v("Everything Else")]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Dexter")]),
+                  _c("p", [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t\tThe rest of these languages I have at least written a 'Hello World' in. Some for\n\t\t\t\t\t\t\tcuriosity, some\n\t\t\t\t\t\t\tfor little mini-projects. But I do not feel very comfortable with them and it would take\n\t\t\t\t\t\t\tsome\n\t\t\t\t\t\t\twork to get to a point that I can do anything impressive with them.\n\t\t\t\t\t\t"
+                    )
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("Workaholics")]),
-                  _vm._v(" "),
-                  _c("li", [_vm._v("Rick and Morty")])
+                  _c("ul", [
+                    _c("li", [_vm._v("Haskell")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("ASM")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Verilog")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("R")])
+                  ])
                 ])
               ])
-            ],
-            2
-          )
-        ],
-        1
-      )
-    ],
-    2
-  )
+            ])
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "card",
+          { staticClass: "md:w-1/2 p-2" },
+          [
+            _c("template", { slot: "title" }, [
+              _vm._v("Is that all you know?")
+            ]),
+            _vm._v(" "),
+            _c("template", { slot: "body-simple" }, [
+              _vm._v(
+                "No! I haven't even talked about the other frameworks and technologies I've\n\t\t\t\tbeen exposed to.\n\t\t\t"
+              )
+            ]),
+            _vm._v(" "),
+            _c("template", { slot: "body-full" }, [
+              _c("div", { staticClass: "flex flex-wrap" }, [
+                _c("div", { staticClass: "lg:w-1/2 mb-4" }, [
+                  _c("h4", [_vm._v("Most Used")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t\tEach of these are something I've done for work or are my go-to technologies when\n\t\t\t\t\t\t\tdeveloping\n\t\t\t\t\t\t\tsomething for myself.\n\t\t\t\t\t\t"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", [
+                    _c("li", [_vm._v("Zend 2")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Composer")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("MySQL")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Laravel")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "lg:w-1/2" }, [
+                  _c("h4", [_vm._v("Previous Exposure")]),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "\n\t\t\t\t\t\t\tThis is a catch-all for everything else I've been exposed to. I don't have huge\n\t\t\t\t\t\t\tfamiliarity with\n\t\t\t\t\t\t\tthese but have at least been exposed to them and done something with them before.\n\t\t\t\t\t\t"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", [
+                    _c("li", [_vm._v("Angular.js 1")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("React.js")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Node.js")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Docker")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("ANTLR")])
+                  ])
+                ])
+              ])
+            ])
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "card",
+          { staticClass: "md:w-1/2 p-2" },
+          [
+            _c("template", { slot: "title" }, [
+              _vm._v("What do you do for fun?")
+            ]),
+            _vm._v(" "),
+            _c("template", { slot: "body-simple" }, [
+              _vm._v(
+                "\n\t\t\t\tMost of my time the past few years has been spent on work or school. When I'm not doing either\n\t\t\t\tof those,\n\t\t\t\tI try to get outside and take in some fresh air and sunlight.\n\t\t\t"
+              )
+            ]),
+            _vm._v(" "),
+            _c("template", { slot: "body-full" }, [
+              _c("ul", [
+                _c("li", [_vm._v("Cook")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Read")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Write code")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Play video games")]),
+                _vm._v(" "),
+                _c("li", [_vm._v("Hike")])
+              ])
+            ])
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "card",
+          { staticClass: "lg:w-1/2 p-2" },
+          [
+            _c("template", { slot: "title" }, [_vm._v("Favorite...")]),
+            _vm._v(" "),
+            _c("template", { slot: "body-full" }, [
+              _c("div", { staticClass: "flex flex-wrap" }, [
+                _c("div", [
+                  _c("h4", [_vm._v("Video Games")]),
+                  _vm._v(" "),
+                  _c("ul", [
+                    _c("li", [_vm._v("Destiny 2")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Red Dead Redemption 2")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Hitman 2")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Cuphead")])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _c("h4", [_vm._v("TV Shows")]),
+                  _vm._v(" "),
+                  _c("ul", [
+                    _c("li", [_vm._v("Mr Robot")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Dexter")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Workaholics")]),
+                    _vm._v(" "),
+                    _c("li", [_vm._v("Rick and Morty")])
+                  ])
+                ])
+              ])
+            ])
+          ],
+          2
+        )
+      ],
+      1
+    )
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex flex-col items-center mb-4" }, [
+      _c("h3", [_vm._v("About Me")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("My name is Jake and I'm a software engineer")]),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "https://www.linkedin.com/in/jacobisu19/" } }, [
+        _c("img", {
+          staticClass: "rounded-full",
+          attrs: { src: "/images/selfie.jpg", alt: "Jake" }
+        })
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -2619,8 +2644,6 @@ var render = function() {
     "card",
     [
       _c("template", { slot: "title" }, [_vm._v("Home")]),
-      _vm._v(" "),
-      _c("template", { slot: "mainImage" }),
       _vm._v(" "),
       _c("template", { slot: "body-simple" }, [
         _vm._v("Welcome to my website!")
@@ -2837,29 +2860,62 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "card" }, [
-    _c(
-      "div",
-      { staticClass: "flex justify-between" },
-      [
-        _c(
-          "h1",
-          {
-            staticClass: "font-normal text-3xl leading-none flex items-center"
-          },
-          [_vm._t("title")],
-          2
-        ),
-        _vm._v(" "),
-        _vm._t("mainImage")
-      ],
-      2
-    ),
+    _c("div", { staticClass: "flex justify-between" }, [
+      _c(
+        "h1",
+        { staticClass: "font-normal text-3xl leading-none flex text-center" },
+        [_vm._t("title")],
+        2
+      )
+    ]),
     _vm._v(" "),
-    _c("div", { staticClass: "mt-4 center" }, [
+    _c("div", { staticClass: "mt-4 text-center" }, [
       _c("p", [_vm._t("body-simple")], 2),
       _vm._v(" "),
       _c("div", { staticClass: "mt-4" }, [_vm._t("body-full")], 2)
     ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/ImageCard.vue?vue&type=template&id=49731db8&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/base/ImageCard.vue?vue&type=template&id=49731db8&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "card" }, [
+    _c(
+      "h3",
+      { staticClass: "whitespace-no-wrap", attrs: { align: "left" } },
+      [_vm._t("title")],
+      2
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "flex justify-between items-center" },
+      [
+        _vm._t("content"),
+        _vm._v(" "),
+        _c("img", { attrs: { src: _vm.imgUrl, alt: "Image" } })
+      ],
+      2
+    )
   ])
 }
 var staticRenderFns = []
@@ -3011,39 +3067,6 @@ var render = function() {
     ],
     1
   )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true&":
-/*!*****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/base/SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true& ***!
-  \*****************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "card mb-4" }, [
-    _c("h3", { attrs: { align: "left" } }, [_vm._t("title")], 2),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "flex justify-between items-center" },
-      [_vm._t("content"), _vm._v(" "), _vm._t("image")],
-      2
-    )
-  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -19082,9 +19105,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Card_vue_vue_type_template_id_9392721a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Card.vue?vue&type=template&id=9392721a&scoped=true& */ "./resources/js/components/base/Card.vue?vue&type=template&id=9392721a&scoped=true&");
 /* harmony import */ var _Card_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Card.vue?vue&type=script&lang=js& */ "./resources/js/components/base/Card.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _Card_vue_vue_type_style_index_0_id_9392721a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css& */ "./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -19092,7 +19113,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _Card_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _Card_vue_vue_type_template_id_9392721a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
   _Card_vue_vue_type_template_id_9392721a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -19124,22 +19145,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css& ***!
-  \********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_9392721a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/src??ref--6-2!../../../../node_modules/vue-loader/lib??vue-loader-options!./Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/Card.vue?vue&type=style&index=0&id=9392721a&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_9392721a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_9392721a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_9392721a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_9392721a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_style_index_0_id_9392721a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "./resources/js/components/base/Card.vue?vue&type=template&id=9392721a&scoped=true&":
 /*!******************************************************************************************!*\
   !*** ./resources/js/components/base/Card.vue?vue&type=template&id=9392721a&scoped=true& ***!
@@ -19153,6 +19158,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_template_id_9392721a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Card_vue_vue_type_template_id_9392721a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/base/ImageCard.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/base/ImageCard.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ImageCard_vue_vue_type_template_id_49731db8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ImageCard.vue?vue&type=template&id=49731db8&scoped=true& */ "./resources/js/components/base/ImageCard.vue?vue&type=template&id=49731db8&scoped=true&");
+/* harmony import */ var _ImageCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageCard.vue?vue&type=script&lang=js& */ "./resources/js/components/base/ImageCard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ImageCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ImageCard_vue_vue_type_template_id_49731db8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ImageCard_vue_vue_type_template_id_49731db8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "49731db8",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/base/ImageCard.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/base/ImageCard.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/base/ImageCard.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./ImageCard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/ImageCard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/base/ImageCard.vue?vue&type=template&id=49731db8&scoped=true&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/base/ImageCard.vue?vue&type=template&id=49731db8&scoped=true& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCard_vue_vue_type_template_id_49731db8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./ImageCard.vue?vue&type=template&id=49731db8&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/ImageCard.vue?vue&type=template&id=49731db8&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCard_vue_vue_type_template_id_49731db8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageCard_vue_vue_type_template_id_49731db8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -19396,75 +19470,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SideNavbar_vue_vue_type_template_id_e44c872c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SideNavbar_vue_vue_type_template_id_e44c872c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/components/base/SplitCard.vue":
-/*!****************************************************!*\
-  !*** ./resources/js/components/base/SplitCard.vue ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _SplitCard_vue_vue_type_template_id_9fe13f12_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true& */ "./resources/js/components/base/SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true&");
-/* harmony import */ var _SplitCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SplitCard.vue?vue&type=script&lang=js& */ "./resources/js/components/base/SplitCard.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _SplitCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _SplitCard_vue_vue_type_template_id_9fe13f12_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _SplitCard_vue_vue_type_template_id_9fe13f12_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "9fe13f12",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/base/SplitCard.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/base/SplitCard.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/components/base/SplitCard.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SplitCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./SplitCard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/SplitCard.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SplitCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/base/SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/components/base/SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true& ***!
-  \***********************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SplitCard_vue_vue_type_template_id_9fe13f12_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/base/SplitCard.vue?vue&type=template&id=9fe13f12&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SplitCard_vue_vue_type_template_id_9fe13f12_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SplitCard_vue_vue_type_template_id_9fe13f12_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -20063,8 +20068,8 @@ var mutations = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
