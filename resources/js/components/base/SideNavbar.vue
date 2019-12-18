@@ -7,7 +7,7 @@
 		<side-menu>
 			<ul style="list-style-type: none">
 				<li v-for="link in links">
-					<router-link @click="toggleNav" :to="link.url">
+					<router-link @click="toggleNav" :to="link.url" class="text-2xl block pb-3 whitespace-no-wrap" exact>
 						{{link.text}}
 					</router-link>
 				</li>
@@ -39,11 +39,4 @@
 
 <style scoped>
 
-	a {
-		color: #fff;
-		text-decoration: none;
-		font-size: 1.5rem;
-		display: block;
-		padding-bottom: 0.5em;
-	}
 </style>

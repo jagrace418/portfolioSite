@@ -1,9 +1,9 @@
 <template>
 	<div class="sidebar">
-		<div class="sidebar-backdrop" @click="closeSidebarPanel" v-if="isPanelOpen"></div>
+		<div class="sidebar-backdrop inset-top-left cursor-pointer fixed w-screen h-screen" @click="closeSidebarPanel" v-if="isPanelOpen"></div>
 		<transition name="slide">
 			<div v-if="isPanelOpen"
-				 class="sidebar-panel flex justify-between">
+				 class="sidebar-panel inset-top-left py-8 px-5 h-screen overflow-y-auto fixed w-64 z-z flex justify-between">
 				<slot/>
 				<burger-button/>
 			</div>
@@ -42,24 +42,10 @@
 	}
 
 	.sidebar-backdrop {
-		background-color: rgba(0, 0, 0, .5);
-		width: 100vw;
-		height: 100vh;
-		position: fixed;
-		top: 0;
-		left: 0;
-		cursor: pointer;
+		background: rgba(255,255,255,0.6);
 	}
 
 	.sidebar-panel {
-		overflow-y: auto;
-		background-color: #130f40;
-		position: fixed;
-		left: 0;
-		top: 0;
-		height: 100vh;
-		z-index: 999;
-		padding: 3rem 20px 2rem 20px;
-		width: 300px;
+		background: linear-gradient(to bottom, black, white);
 	}
 </style>

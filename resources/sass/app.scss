@@ -4,6 +4,11 @@
 
 @tailwind utilities;
 
+.inset-top-left {
+  top: 0;
+  left: 0;
+}
+
 @import "themes/light";
 @import "themes/dark";
 @import "components/card";

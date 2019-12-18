@@ -5351,6 +5351,15 @@ table {
   z-index: auto;
 }
 
+.z-z {
+  z-index: 999;
+}
+
+.inset-top-left {
+  top: 0;
+  left: 0;
+}
+
 .theme-light {
   --page-background-color: #f5f6f9;
   --card-background-color: white;
@@ -10258,6 +10267,10 @@ body {
   .sm\:z-auto {
     z-index: auto;
   }
+
+  .sm\:z-z {
+    z-index: 999;
+  }
 }
 
 @media (min-width: 768px) {
@@ -15082,6 +15095,10 @@ body {
 
   .md\:z-auto {
     z-index: auto;
+  }
+
+  .md\:z-z {
+    z-index: 999;
   }
 }
 
@@ -19908,6 +19925,10 @@ body {
   .lg\:z-auto {
     z-index: auto;
   }
+
+  .lg\:z-z {
+    z-index: 999;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -24732,5 +24753,9 @@ body {
 
   .xl\:z-auto {
     z-index: auto;
+  }
+
+  .xl\:z-z {
+    z-index: 999;
   }
 }
