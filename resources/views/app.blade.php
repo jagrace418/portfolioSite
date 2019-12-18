@@ -19,15 +19,15 @@
 		<main class="flex flex-1">
 			<side-nav
 					:links="[
-					{'id': 0, 'text': 'Home', 'url': '/'},
-					{'id': 1, 'text': 'Me', 'url': '/me'},
-					{'id': 2, 'text': 'Why 418?', 'url': '/why'},
-					{'id': 3, 'text': 'Laravel', 'url': '/laravel'},
-					{'id': 4, 'text': 'Unity', 'url': '/unity'},
-					{'id': 5, 'text': 'School', 'url': '/school'},
-					{'id': 6, 'text': 'Senior Design', 'url': '/senior'},
-					{'id': 7, 'text': 'Games and AI', 'url': '/ai'},
-					{'id': 8, 'text': 'Blender', 'url': '/blender'},
+					{'text': 'Home', 'url': '/'},
+					{'text': 'Me', 'url': '/me'},
+					{'text': 'Why 418?', 'url': '/why'},
+					{'text': 'Laravel', 'url': '/laravel'},
+					{'text': 'Unity', 'url': '/unity'},
+					{'text': 'School', 'url': '/school'},
+					{'text': 'Senior Design', 'url': '/senior'},
+					{'text': 'Games and AI', 'url': '/ai'},
+					{'text': 'Blender', 'url': '/blender'},
 					]"></side-nav>
 			<div class="primary w-3/4">
 				<router-view></router-view>
