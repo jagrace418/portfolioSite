@@ -2981,13 +2981,13 @@ var render = function() {
           _vm._l(_vm.links, function(link) {
             return _c(
               "li",
+              { on: { click: _vm.toggleNav } },
               [
                 _c(
                   "router-link",
                   {
                     staticClass: "text-2xl block pb-3 whitespace-no-wrap",
-                    attrs: { to: link.url, exact: "" },
-                    on: { click: _vm.toggleNav }
+                    attrs: { to: link.url, exact: "" }
                   },
                   [_vm._v("\n\t\t\t\t\t" + _vm._s(link.text) + "\n\t\t\t\t")]
                 )

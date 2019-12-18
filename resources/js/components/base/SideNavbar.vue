@@ -6,8 +6,8 @@
 
 		<side-menu>
 			<ul style="list-style-type: none">
-				<li v-for="link in links">
-					<router-link @click="toggleNav" :to="link.url" class="text-2xl block pb-3 whitespace-no-wrap" exact>
+				<li v-for="link in links" @click="toggleNav">
+					<router-link  :to="link.url" class="text-2xl block pb-3 whitespace-no-wrap" exact>
 						{{link.text}}
 					</router-link>
 				</li>
@@ -32,7 +32,7 @@
             }
         },
         methods: {
-            toggleNav: mutations.toggleNav
+            toggleNav: mutations.toggleNav,
         }
     }
 </script>
