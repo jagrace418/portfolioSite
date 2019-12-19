@@ -488,7 +488,8 @@ __webpack_require__.r(__webpack_exports__);
     return {
       themes: {
         'theme-light': '#b8eaff',
-        'theme-dark': '#212121'
+        'theme-dark': '#212121',
+        'theme-isu': '#C8102E'
       },
       selectedTheme: 'theme-dark'
     };
@@ -19795,8 +19796,8 @@ var mutations = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
