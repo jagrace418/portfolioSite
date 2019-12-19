@@ -12,7 +12,7 @@
 </template>
 
 <script>
-	import {store, mutations} from "../../store";
+	import {store, mutations} from "../../../store";
     import BurgerButton from "./BurgerButton";
 
     export default {

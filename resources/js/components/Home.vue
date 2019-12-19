@@ -1,9 +1,6 @@
 <template>
 	<card>
 		<template slot="title">Home</template>
-		<template slot="mainImage">
-
-		</template>
 		<template slot="body-simple">Welcome to my website!</template>
 		<template slot="body-full">
 			<p>

@@ -1,5 +1,5 @@
 <template>
-	<card>
+	<card class="mb-10">
 		<template slot="title">School Projects</template>
 		<template slot="body-simple">
 			Here is a summary of all the different software projects I've worked on at ISU. Sadly most of these projects
@@ -7,7 +7,7 @@
 			eventually.
 		</template>
 		<template slot="body-full">
-			<mini-card>
+			<image-card img-url="/images/rpg.jpg" class="mb-4">
 				<template slot="title">RPG Dungeon Crawler</template>
 				<template slot="content">
 					<p>
@@ -23,8 +23,8 @@
 						for a text editor would be a good idea.
 					</p>
 				</template>
-			</mini-card>
-			<mini-card>
+			</image-card>
+			<image-card img-url="/images/weight.jpg" class="mb-4">
 				<template slot="title">ExerCYse</template>
 				<template slot="content">
 					<p>
@@ -45,8 +45,8 @@
 						throughout development.
 					</p>
 				</template>
-			</mini-card>
-			<mini-card>
+			</image-card>
+			<image-card img-url="/images/angular.png" class="mb-4">
 				<template slot="title">Web Apps</template>
 				<template slot="content">
 					<p>
@@ -58,8 +58,8 @@
 						time.
 					</p>
 				</template>
-			</mini-card>
-			<mini-card>
+			</image-card>
+			<image-card img-url="/images/wrestler.png">
 				<template slot="title">Sumo.io</template>
 				<template slot="content">
 					<p>
@@ -72,18 +72,18 @@
 						other zip files.
 					</p>
 				</template>
-			</mini-card>
+			</image-card>
 		</template>
 	</card>
 </template>
 
 <script>
     import Card from "../base/Card";
-    import MiniCard from "../base/MiniCard";
+    import ImageCard from "../base/ImageCard";
 
     export default {
         name: "School",
-        components: {MiniCard, Card}
+        components: {ImageCard, Card}
     }
 </script>
 

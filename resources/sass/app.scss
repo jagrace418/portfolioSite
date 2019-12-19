@@ -14,17 +14,3 @@
 @import "components/card";
 @import "components/link";
 @import "components/button";
-
-body, a {
-  @apply .text-default;
-}
-
-html, body {
-  height: 100%;
-}
-
-#app {
-  height: auto;
-  min-height: 100%;
-}
-

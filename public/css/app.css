@@ -5376,7 +5376,7 @@ table {
 
 .card {
   background-color: var(--card-background-color);
-  padding: 1.25rem;
+  padding: .5rem;
   border-radius: .5rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
@@ -5429,21 +5429,6 @@ li {
 
 .theme-light .button {
   box-shadow: 0 2px 7px 0 #b8eaff;
-}
-
-body,
-a {
-  color: var(--text-default-color);
-}
-
-html,
-body {
-  height: 100%;
-}
-
-#app {
-  height: auto;
-  min-height: 100%;
 }
 
 @media (min-width: 576px) {
