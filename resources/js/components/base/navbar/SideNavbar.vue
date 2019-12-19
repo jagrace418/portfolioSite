@@ -19,7 +19,7 @@
 <script>
     import SideMenu from "./SideMenu";
     import BurgerButton from "./BurgerButton";
-    import {mutations} from "../../store";
+    import {mutations} from "../../../store";
 
     export default {
         name: "SideNavbar",

@@ -1,5 +1,5 @@
 <template>
-	<div class="card">
+	<div class="card mb-10">
 		<div class="flex flex-col items-center mb-4">
 			<h3>About Me</h3>
 			<p>My name is Jake and I'm a software engineer</p>

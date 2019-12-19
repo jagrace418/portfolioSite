@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 <body class="font-sans theme-dark text-default h-full min-h-full">
-<div id="app" class="bg-page h-full min-h-full">
+<div id="app" class="bg-page h-auto min-h-full">
 	<div class="container px-8">
 		<header class="py-6 flex justify-between">
 			<h1>
