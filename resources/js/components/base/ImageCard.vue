@@ -1,6 +1,6 @@
 <template>
 	<div class="card">
-		<h3 align="left" class="whitespace-no-wrap mb-2">
+		<h3 class="text-left mb-2">
 			<slot name="title"/>
 		</h3>
 		<div class="flex items-center">
