@@ -5419,6 +5419,8 @@ table {
   --card-background-color: #9b945f;
   --text-default-color: black;
   --header-background-color: #f1be48;
+  --sidebar-background-color: #f1be48;
+  --text-accent-color: #003d4c;
 }
 
 .card {
