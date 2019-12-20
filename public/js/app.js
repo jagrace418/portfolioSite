@@ -2687,17 +2687,19 @@ var render = function() {
   return _c("div", { staticClass: "card" }, [
     _c("div", { staticClass: "flex justify-between" }, [
       _c(
-        "h1",
-        { staticClass: "font-normal text-3xl leading-none flex text-center" },
-        [_vm._t("title")],
-        2
+          "h1",
+          {
+              staticClass: "font-normal text-3xl leading-none flex text-center mb-4"
+          },
+          [_vm._t("title")],
+          2
       )
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "mt-4 text-center" }, [
-      _c("p", [_vm._t("body-simple")], 2),
-      _vm._v(" "),
-      _c("div", { staticClass: "mt-4" }, [_vm._t("body-full")], 2)
+        _c("p", {staticClass: "text-accent"}, [_vm._t("body-simple")], 2),
+        _vm._v(" "),
+        _c("div", {staticClass: "mt-4"}, [_vm._t("body-full")], 2)
     ])
   ])
 }
@@ -2724,22 +2726,17 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "card" }, [
-    _c(
-      "h3",
-      { staticClass: "whitespace-no-wrap mb-2", attrs: { align: "left" } },
-      [_vm._t("title")],
-      2
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "flex items-center" },
-      [
-        _vm._t("content"),
-        _vm._v(" "),
-        _c("div", { staticClass: "flex-2" }, [
-          _c("img", {
-            staticClass: "rounded-full",
+      _c("h3", {staticClass: "text-left mb-2"}, [_vm._t("title")], 2),
+      _vm._v(" "),
+      _c(
+          "div",
+          {staticClass: "flex items-center"},
+          [
+              _vm._t("content"),
+              _vm._v(" "),
+              _c("div", {staticClass: "flex-2"}, [
+                  _c("img", {
+                      staticClass: "rounded-full",
             attrs: { src: _vm.imgUrl, alt: "Image" }
           })
         ])
@@ -2847,15 +2844,15 @@ var staticRenderFns = [
       },
       [
         _c("span", {
-          staticClass: "burger-bar bg-header absolute w-auto burger-bar--1"
+            staticClass: "burger-bar bg-sidebar absolute w-auto burger-bar--1"
         }),
         _vm._v(" "),
         _c("span", {
-          staticClass: "burger-bar bg-header absolute w-auto burger-bar--2"
+            staticClass: "burger-bar bg-sidebar absolute w-auto burger-bar--2"
         }),
         _vm._v(" "),
         _c("span", {
-          staticClass: "burger-bar bg-header absolute w-auto burger-bar--3"
+            staticClass: "burger-bar bg-sidebar absolute w-auto burger-bar--3"
         })
       ]
     )
@@ -2900,7 +2897,7 @@ var render = function() {
               "div",
               {
                 staticClass:
-                  "bg-card inset-top-left py-8 px-5 h-screen overflow-y-auto fixed w-64 z-z flex justify-between"
+                    "bg-sidebar inset-top-left py-8 px-5 h-screen overflow-y-auto fixed w-64 z-z flex justify-between"
               },
               [_vm._t("default"), _vm._v(" "), _c("burger-button")],
               2
@@ -19795,10 +19792,11 @@ var mutations = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
+            __webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\js\app.js */"./resources/js/app.js");
+            module.exports = __webpack_require__(/*! C:\xampp2\htdocs\portfolioSite\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
-/***/ })
+            /***/
+        })
 
 /******/ });
