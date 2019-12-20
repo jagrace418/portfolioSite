@@ -3,7 +3,7 @@
 		<div class="sidebar-backdrop inset-top-left cursor-pointer fixed w-screen h-screen" @click="closeSidebarPanel" v-if="isPanelOpen"></div>
 		<transition name="slide">
 			<div v-if="isPanelOpen"
-				 class="bg-card inset-top-left py-8 px-5 h-screen overflow-y-auto fixed w-64 z-z flex justify-between">
+				 class="bg-sidebar inset-top-left py-8 px-5 h-screen overflow-y-auto fixed w-64 z-z flex justify-between">
 				<slot/>
 				<burger-button/>
 			</div>

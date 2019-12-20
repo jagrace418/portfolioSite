@@ -543,6 +543,10 @@ table {
   background-color: var(--header-background-color);
 }
 
+.bg-sidebar {
+  background-color: var(--sidebar-background-color);
+}
+
 .hover\:bg-page:hover {
   background-color: var(--page-background-color);
 }
@@ -559,6 +563,10 @@ table {
   background-color: var(--header-background-color);
 }
 
+.hover\:bg-sidebar:hover {
+  background-color: var(--sidebar-background-color);
+}
+
 .focus\:bg-page:focus {
   background-color: var(--page-background-color);
 }
@@ -573,6 +581,10 @@ table {
 
 .focus\:bg-header:focus {
   background-color: var(--header-background-color);
+}
+
+.focus\:bg-sidebar:focus {
+  background-color: var(--sidebar-background-color);
 }
 
 .bg-bottom {
@@ -649,6 +661,10 @@ table {
 
 .border-transparent {
   border-color: transparent;
+}
+
+.border-accent {
+  border-color: var(--text-accent-color);
 }
 
 .border-black {
@@ -943,6 +959,10 @@ table {
   border-color: transparent;
 }
 
+.hover\:border-accent:hover {
+  border-color: var(--text-accent-color);
+}
+
 .hover\:border-black:hover {
   border-color: #222;
 }
@@ -1233,6 +1253,10 @@ table {
 
 .focus\:border-transparent:focus {
   border-color: transparent;
+}
+
+.focus\:border-accent:focus {
+  border-color: var(--text-accent-color);
 }
 
 .focus\:border-black:focus {
@@ -4061,6 +4085,10 @@ table {
   color: var(--text-default-color);
 }
 
+.text-accent {
+  color: var(--text-accent-color);
+}
+
 .text-black {
   color: #222;
 }
@@ -4357,6 +4385,10 @@ table {
   color: var(--text-default-color);
 }
 
+.hover\:text-accent:hover {
+  color: var(--text-accent-color);
+}
+
 .hover\:text-black:hover {
   color: #222;
 }
@@ -4651,6 +4683,10 @@ table {
 
 .focus\:text-default:focus {
   color: var(--text-default-color);
+}
+
+.focus\:text-accent:focus {
+  color: var(--text-accent-color);
 }
 
 .focus\:text-black:focus {
@@ -5363,15 +5399,19 @@ table {
 .theme-light {
   --page-background-color: #f5f6f9;
   --card-background-color: white;
-  --text-default-color: black;
+  --text-default-color: #606f7b;
   --header-background-color: black;
+  --sidebar-background-color: #51d88a;
+  --text-accent-color: black;
 }
 
 .theme-dark {
   --page-background-color: black;
   --card-background-color: #4a4a4a;
-  --text-default-color: white;
+  --text-default-color: #f1f5f8;
   --header-background-color: white;
+  --sidebar-background-color: #1f9d55;
+  --text-accent-color: white;
 }
 
 .theme-isu {
@@ -5478,6 +5518,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .sm\:bg-sidebar {
+    background-color: var(--sidebar-background-color);
+  }
+
   .sm\:hover\:bg-page:hover {
     background-color: var(--page-background-color);
   }
@@ -5494,6 +5538,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .sm\:hover\:bg-sidebar:hover {
+    background-color: var(--sidebar-background-color);
+  }
+
   .sm\:focus\:bg-page:focus {
     background-color: var(--page-background-color);
   }
@@ -5508,6 +5556,10 @@ li {
 
   .sm\:focus\:bg-header:focus {
     background-color: var(--header-background-color);
+  }
+
+  .sm\:focus\:bg-sidebar:focus {
+    background-color: var(--sidebar-background-color);
   }
 
   .sm\:bg-bottom {
@@ -5576,6 +5628,10 @@ li {
 
   .sm\:border-transparent {
     border-color: transparent;
+  }
+
+  .sm\:border-accent {
+    border-color: var(--text-accent-color);
   }
 
   .sm\:border-black {
@@ -5870,6 +5926,10 @@ li {
     border-color: transparent;
   }
 
+  .sm\:hover\:border-accent:hover {
+    border-color: var(--text-accent-color);
+  }
+
   .sm\:hover\:border-black:hover {
     border-color: #222;
   }
@@ -6160,6 +6220,10 @@ li {
 
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .sm\:focus\:border-accent:focus {
+    border-color: var(--text-accent-color);
   }
 
   .sm\:focus\:border-black:focus {
@@ -8972,6 +9036,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .sm\:text-accent {
+    color: var(--text-accent-color);
+  }
+
   .sm\:text-black {
     color: #222;
   }
@@ -9268,6 +9336,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .sm\:hover\:text-accent:hover {
+    color: var(--text-accent-color);
+  }
+
   .sm\:hover\:text-black:hover {
     color: #222;
   }
@@ -9562,6 +9634,10 @@ li {
 
   .sm\:focus\:text-default:focus {
     color: var(--text-default-color);
+  }
+
+  .sm\:focus\:text-accent:focus {
+    color: var(--text-accent-color);
   }
 
   .sm\:focus\:text-black:focus {
@@ -10307,6 +10383,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .md\:bg-sidebar {
+    background-color: var(--sidebar-background-color);
+  }
+
   .md\:hover\:bg-page:hover {
     background-color: var(--page-background-color);
   }
@@ -10323,6 +10403,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .md\:hover\:bg-sidebar:hover {
+    background-color: var(--sidebar-background-color);
+  }
+
   .md\:focus\:bg-page:focus {
     background-color: var(--page-background-color);
   }
@@ -10337,6 +10421,10 @@ li {
 
   .md\:focus\:bg-header:focus {
     background-color: var(--header-background-color);
+  }
+
+  .md\:focus\:bg-sidebar:focus {
+    background-color: var(--sidebar-background-color);
   }
 
   .md\:bg-bottom {
@@ -10405,6 +10493,10 @@ li {
 
   .md\:border-transparent {
     border-color: transparent;
+  }
+
+  .md\:border-accent {
+    border-color: var(--text-accent-color);
   }
 
   .md\:border-black {
@@ -10699,6 +10791,10 @@ li {
     border-color: transparent;
   }
 
+  .md\:hover\:border-accent:hover {
+    border-color: var(--text-accent-color);
+  }
+
   .md\:hover\:border-black:hover {
     border-color: #222;
   }
@@ -10989,6 +11085,10 @@ li {
 
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .md\:focus\:border-accent:focus {
+    border-color: var(--text-accent-color);
   }
 
   .md\:focus\:border-black:focus {
@@ -13801,6 +13901,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .md\:text-accent {
+    color: var(--text-accent-color);
+  }
+
   .md\:text-black {
     color: #222;
   }
@@ -14097,6 +14201,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .md\:hover\:text-accent:hover {
+    color: var(--text-accent-color);
+  }
+
   .md\:hover\:text-black:hover {
     color: #222;
   }
@@ -14391,6 +14499,10 @@ li {
 
   .md\:focus\:text-default:focus {
     color: var(--text-default-color);
+  }
+
+  .md\:focus\:text-accent:focus {
+    color: var(--text-accent-color);
   }
 
   .md\:focus\:text-black:focus {
@@ -15136,6 +15248,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .lg\:bg-sidebar {
+    background-color: var(--sidebar-background-color);
+  }
+
   .lg\:hover\:bg-page:hover {
     background-color: var(--page-background-color);
   }
@@ -15152,6 +15268,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .lg\:hover\:bg-sidebar:hover {
+    background-color: var(--sidebar-background-color);
+  }
+
   .lg\:focus\:bg-page:focus {
     background-color: var(--page-background-color);
   }
@@ -15166,6 +15286,10 @@ li {
 
   .lg\:focus\:bg-header:focus {
     background-color: var(--header-background-color);
+  }
+
+  .lg\:focus\:bg-sidebar:focus {
+    background-color: var(--sidebar-background-color);
   }
 
   .lg\:bg-bottom {
@@ -15234,6 +15358,10 @@ li {
 
   .lg\:border-transparent {
     border-color: transparent;
+  }
+
+  .lg\:border-accent {
+    border-color: var(--text-accent-color);
   }
 
   .lg\:border-black {
@@ -15528,6 +15656,10 @@ li {
     border-color: transparent;
   }
 
+  .lg\:hover\:border-accent:hover {
+    border-color: var(--text-accent-color);
+  }
+
   .lg\:hover\:border-black:hover {
     border-color: #222;
   }
@@ -15818,6 +15950,10 @@ li {
 
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .lg\:focus\:border-accent:focus {
+    border-color: var(--text-accent-color);
   }
 
   .lg\:focus\:border-black:focus {
@@ -18630,6 +18766,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .lg\:text-accent {
+    color: var(--text-accent-color);
+  }
+
   .lg\:text-black {
     color: #222;
   }
@@ -18926,6 +19066,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .lg\:hover\:text-accent:hover {
+    color: var(--text-accent-color);
+  }
+
   .lg\:hover\:text-black:hover {
     color: #222;
   }
@@ -19220,6 +19364,10 @@ li {
 
   .lg\:focus\:text-default:focus {
     color: var(--text-default-color);
+  }
+
+  .lg\:focus\:text-accent:focus {
+    color: var(--text-accent-color);
   }
 
   .lg\:focus\:text-black:focus {
@@ -19965,6 +20113,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .xl\:bg-sidebar {
+    background-color: var(--sidebar-background-color);
+  }
+
   .xl\:hover\:bg-page:hover {
     background-color: var(--page-background-color);
   }
@@ -19981,6 +20133,10 @@ li {
     background-color: var(--header-background-color);
   }
 
+  .xl\:hover\:bg-sidebar:hover {
+    background-color: var(--sidebar-background-color);
+  }
+
   .xl\:focus\:bg-page:focus {
     background-color: var(--page-background-color);
   }
@@ -19995,6 +20151,10 @@ li {
 
   .xl\:focus\:bg-header:focus {
     background-color: var(--header-background-color);
+  }
+
+  .xl\:focus\:bg-sidebar:focus {
+    background-color: var(--sidebar-background-color);
   }
 
   .xl\:bg-bottom {
@@ -20063,6 +20223,10 @@ li {
 
   .xl\:border-transparent {
     border-color: transparent;
+  }
+
+  .xl\:border-accent {
+    border-color: var(--text-accent-color);
   }
 
   .xl\:border-black {
@@ -20357,6 +20521,10 @@ li {
     border-color: transparent;
   }
 
+  .xl\:hover\:border-accent:hover {
+    border-color: var(--text-accent-color);
+  }
+
   .xl\:hover\:border-black:hover {
     border-color: #222;
   }
@@ -20647,6 +20815,10 @@ li {
 
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
+  }
+
+  .xl\:focus\:border-accent:focus {
+    border-color: var(--text-accent-color);
   }
 
   .xl\:focus\:border-black:focus {
@@ -23459,6 +23631,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .xl\:text-accent {
+    color: var(--text-accent-color);
+  }
+
   .xl\:text-black {
     color: #222;
   }
@@ -23755,6 +23931,10 @@ li {
     color: var(--text-default-color);
   }
 
+  .xl\:hover\:text-accent:hover {
+    color: var(--text-accent-color);
+  }
+
   .xl\:hover\:text-black:hover {
     color: #222;
   }
@@ -24049,6 +24229,10 @@ li {
 
   .xl\:focus\:text-default:focus {
     color: var(--text-default-color);
+  }
+
+  .xl\:focus\:text-accent:focus {
+    color: var(--text-accent-color);
   }
 
   .xl\:focus\:text-black:focus {

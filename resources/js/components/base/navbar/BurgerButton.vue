@@ -6,9 +6,9 @@
 			<button type="button"
 					class="burger-button cursor-pointer relative block z-z rounded-none w-8 h-8"
 					title="Menu">
-				<span class="burger-bar bg-header absolute w-auto burger-bar--1"/>
-				<span class="burger-bar bg-header absolute w-auto burger-bar--2"/>
-				<span class="burger-bar bg-header absolute w-auto burger-bar--3"/>
+				<span class="burger-bar bg-sidebar absolute w-auto burger-bar--1"/>
+				<span class="burger-bar bg-sidebar absolute w-auto burger-bar--2"/>
+				<span class="burger-bar bg-sidebar absolute w-auto burger-bar--3"/>
 			</button>
 		</slot>
 	</div>
