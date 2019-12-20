@@ -2731,11 +2731,11 @@ var render = function() {
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "flex items-center" },
+      { staticClass: "flex items-center  flex-col" },
       [
         _vm._t("content"),
         _vm._v(" "),
-        _c("div", { staticClass: "flex-2" }, [
+        _c("div", { staticClass: "flex-2 max-w-2xs md:max-w-xs" }, [
           _c("img", {
             staticClass: "rounded-full",
             attrs: { src: _vm.imgUrl, alt: "Image" }

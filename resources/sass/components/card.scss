@@ -15,5 +15,6 @@
 
   a {
     text-decoration: green underline;
+    @apply .text-default;
   }
 }
