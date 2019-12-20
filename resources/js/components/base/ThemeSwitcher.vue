@@ -20,7 +20,7 @@
                 themes: {
                     'theme-light': '#b8eaff',
                     'theme-dark': '#212121',
-					'theme-isu': '#C8102E',
+                    'theme-isu': '#C8102E',
                 },
                 selectedTheme: 'theme-dark'
             };
