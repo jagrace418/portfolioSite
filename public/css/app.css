@@ -5414,6 +5414,15 @@ table {
   --text-accent-color: white;
 }
 
+.theme-isu {
+  --page-background-color: #c8102e;
+  --card-background-color: #9b945f;
+  --text-default-color: black;
+  --header-background-color: #f1be48;
+  --sidebar-background-color: #f1be48;
+  --text-accent-color: #003d4c;
+}
+
 .card {
   background-color: var(--card-background-color);
   padding: .5rem;
