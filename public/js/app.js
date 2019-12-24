@@ -245,7 +245,6 @@
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -679,7 +678,8 @@ __webpack_require__.r(__webpack_exports__);
 
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../base/Card */ "./resources/js/components/base/Card.vue");
+            /* harmony import */
+            var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../base/Card */ "./resources/js/components/base/Card.vue");
 //
 //
 //
@@ -1112,12 +1112,12 @@ __webpack_require__.r(__webpack_exports__);
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+            exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "card[data-v-fb05e49c] {\n  margin: 5px 5px 10px;\n}\n", ""]);
+            exports.push([module.i, "card[data-v-fb05e49c] {\n  margin: 5px 5px 10px;\n}\n", ""]);
 
 // exports
 
@@ -2530,18 +2530,18 @@ var render = function() {
         ),
         _vm._v(" "),
         _c(
-          "card",
-          { staticClass: "lg:w-1/2 p-2" },
-          [
-            _c("template", { slot: "title" }, [_vm._v("Favorite...")]),
-            _vm._v(" "),
-            _c("template", { slot: "body-full" }, [
-              _c("div", { staticClass: "flex flex-wrap" }, [
-                _c("div", [
-                  _c("h4", [_vm._v("Video Games")]),
-                  _vm._v(" "),
-                  _c("ul", [
-                    _c("li", [_vm._v("Destiny 2")]),
+            "card",
+            {staticClass: "md:w-1/2 p-2"},
+            [
+                _c("template", {slot: "title"}, [_vm._v("Favorite...")]),
+                _vm._v(" "),
+                _c("template", {slot: "body-full"}, [
+                    _c("div", {staticClass: "flex flex-wrap"}, [
+                        _c("div", [
+                            _c("h4", [_vm._v("Video Games")]),
+                            _vm._v(" "),
+                            _c("ul", [
+                                _c("li", [_vm._v("Destiny 2")]),
                     _vm._v(" "),
                     _c("li", [_vm._v("Red Dead Redemption 2")]),
                     _vm._v(" "),
@@ -3738,16 +3738,19 @@ var render = function() {
 
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
+            /* harmony export (binding) */
+            __webpack_require__.d(__webpack_exports__, "default", function () {
+                return normalizeComponent;
+            });
+            /* globals __VUE_SSR_CONTEXT__ */
 
 // IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
 // This module is a runtime utility for cleaner component module output and will
 // be included in the final webpack user bundle.
 
-function normalizeComponent (
-  scriptExports,
-  render,
+            function normalizeComponent(
+                scriptExports,
+                render,
   staticRenderFns,
   functionalTemplate,
   injectStyles,
@@ -19831,7 +19834,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
+            "use strict";
             __webpack_require__.r(__webpack_exports__);
             /* harmony import */
             var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_School_vue_vue_type_template_id_73802eb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./School.vue?vue&type=template&id=73802eb6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/School.vue?vue&type=template&id=73802eb6&scoped=true&");
@@ -19978,10 +19981,10 @@ __webpack_require__.r(__webpack_exports__);
                     component: _components_About__WEBPACK_IMPORTED_MODULE_8__["default"]
                 }, {
                     path: '/laravel',
-    component: _components_current_Laravel__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }, {
-    path: '/unity',
-    component: _components_current_Unity3D__WEBPACK_IMPORTED_MODULE_1__["default"]
+                    component: _components_current_Laravel__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }, {
+                    path: '/unity',
+                    component: _components_current_Unity3D__WEBPACK_IMPORTED_MODULE_1__["default"]
                 }, {
                     path: '/blender',
                     component: _components_past_Blender__WEBPACK_IMPORTED_MODULE_2__["default"]
@@ -20031,17 +20034,18 @@ var mutations = {
 /***/ }),
 
 /***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+        /*!*********************************!*\
+          !*** ./resources/sass/app.scss ***!
+          \*********************************/
+        /*! no static exports found */
+        /***/ (function (module, exports) {
 
 // removed by extract-text-webpack-plugin
 
-/***/ }),
+            /***/
+        }),
 
-/***/
+        /***/
         0:
         /*!*************************************************************!*\
           !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
@@ -20056,4 +20060,5 @@ var mutations = {
             /***/
         })
 
-/******/ });
+        /******/
+    });

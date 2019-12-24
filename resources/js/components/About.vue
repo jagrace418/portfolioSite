@@ -115,7 +115,7 @@
 					</ul>
 				</template>
 			</card>
-			<card class="lg:w-1/2 p-2">
+			<card class="md:w-1/2 p-2">
 				<template slot="title">Favorite...</template>
 				<template slot="body-full">
 					<div class="flex flex-wrap">
@@ -140,7 +140,6 @@
 					</div>
 				</template>
 			</card>
-
 		</div>
 	</div>
 </template>
