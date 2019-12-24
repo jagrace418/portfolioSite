@@ -669,15 +669,16 @@ __webpack_require__.r(__webpack_exports__);
             /***/
         }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/current/Unity3D.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/current/Unity3D.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+        /***/
+        "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/current/Unity3D.vue?vue&type=script&lang=js&":
+        /*!**************************************************************************************************************************************************************************!*\
+          !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/current/Unity3D.vue?vue&type=script&lang=js& ***!
+          \**************************************************************************************************************************************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../base/Card */ "./resources/js/components/base/Card.vue");
 //
 //
@@ -986,14 +987,130 @@ __webpack_require__.r(__webpack_exports__);
                 }
             });
 
-/***/ }),
+            /***/
+        }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/About.vue?vue&type=style&index=0&id=fb05e49c&scoped=true&lang=css&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/About.vue?vue&type=style&index=0&id=fb05e49c&scoped=true&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+        /***/
+        "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/Work.vue?vue&type=script&lang=js&":
+        /*!********************************************************************************************************************************************************************!*\
+          !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/past/Work.vue?vue&type=script&lang=js& ***!
+          \********************************************************************************************************************************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony import */
+            var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../base/Card */ "./resources/js/components/base/Card.vue");
+            /* harmony import */
+            var _base_ImageCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../base/ImageCard */ "./resources/js/components/base/ImageCard.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "Work",
+                components: {
+                    ImageCard: _base_ImageCard__WEBPACK_IMPORTED_MODULE_1__["default"],
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
+
+            /***/
+        }),
+
+        /***/
+        "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/About.vue?vue&type=style&index=0&id=fb05e49c&scoped=true&lang=css&":
+        /*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+          !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/About.vue?vue&type=style&index=0&id=fb05e49c&scoped=true&lang=css& ***!
+          \***********************************************************************************************************************************************************************************************************************************************************************************************/
+        /*! no static exports found */
+        /***/ (function (module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
@@ -3478,22 +3595,149 @@ var render = function() {
       1
   )
 }
-var staticRenderFns = []
-render._withStripped = true
+            var staticRenderFns = []
+            render._withStripped = true
 
 
+            /***/
+        }),
 
-/***/ }),
+        /***/
+        "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/Work.vue?vue&type=template&id=14402653&scoped=true&":
+        /*!************************************************************************************************************************************************************************************************************************!*\
+          !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/past/Work.vue?vue&type=template&id=14402653&scoped=true& ***!
+          \************************************************************************************************************************************************************************************************************************/
+        /*! exports provided: render, staticRenderFns */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
-/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony export (binding) */
+            __webpack_require__.d(__webpack_exports__, "render", function () {
+                return render;
+            });
+            /* harmony export (binding) */
+            __webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {
+                return staticRenderFns;
+            });
+            var render = function () {
+                var _vm = this
+                var _h = _vm.$createElement
+                var _c = _vm._self._c || _h
+                return _c(
+                    "card",
+                    {staticClass: "mb-10"},
+                    [
+                        _c("template", {slot: "title"}, [_vm._v("Work Experience")]),
+                        _vm._v(" "),
+                        _c("template", {slot: "body-simple"}, [
+                            _vm._v(
+                                "\n\t\tI have only had a few jobs in my life. This is because once I get a job, I stick around. I started working\n\t\tat Hy-Vee as soon as I was eligible to work and didn't stop until I left for college. After that I worked\n\t\tfor the school for a majority of my time in college.\n\t"
+                            )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                            "template",
+                            {slot: "body-full"},
+                            [
+                                _c(
+                                    "image-card",
+                                    {staticClass: "mb-4", attrs: {"img-url": "/images/zend.png"}},
+                                    [
+                                        _c("template", {slot: "title"}, [_vm._v("ISU Webdev")]),
+                                        _vm._v(" "),
+                                        _c("template", {slot: "content"}, [
+                                            _c("p", [
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tI worked for the Iowa State web development department as a PHP developer for 2 years. It was a\n\t\t\t\t\tgreat time and an even better learning experience. Everything I learned in school was finally\n\t\t\t\t\tput to the test.\n\t\t\t\t\t"
+                                                ),
+                                                _c("br"),
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tThere are a few things I did while working at ISU webdev that I am most proud of. The first is\n\t\t\t\t\twhen I was tasked to improve the quality of an existing site. And the second was a tool I\n\t\t\t\t\tcreated to help future developers in the department.\n\t\t\t\t\t"
+                                                ),
+                                                _c("br"),
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tToward the start of my time here, I was hungry for work. I had finished all the training\n\t\t\t\t\tincluding completing a few small projects and was ready to jump into something bigger. That's\n\t\t\t\t\twhen I was told there was a site under development that was having issues loading on the stage\n\t\t\t\t\tenvironment and my job was to fix it. After some investigation I found that the pages were\n\t\t\t\t\tloading slow due to an outrageous amount of SQL queries being run. After deeper investigation I\n\t\t\t\t\trealized it was a two part problem. The page that was loading slow had a large result table on\n\t\t\t\t\tit, this table had thousands of results and each result was an aggregation of different\n\t\t\t\t\tconnected entities. My investigation had uncovered that somewhere between 5-10 queries were\n\t\t\t\t\tbeing sent, per table row. It ended up being over 30,000 SQL queries sent.\n\t\t\t\t\t"
+                                                ),
+                                                _c("br"),
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tTo fix it, I started by using join statements and grabbing all the relevant data ahead of time\n\t\t\t\t\tin the initial table query. This on it's own was a huge improvement and resulted in the page not\n\t\t\t\t\ttiming out anymore, but I could do better. After some further searching and reading some\n\t\t\t\t\tdocumentation on Doctrine, I found that the ORM was 'lazy loading' the table. This is sometimes\n\t\t\t\t\ta useful feature but in this case it was causing it to not collect all the data I told it I\n\t\t\t\t\twanted and instead waited until it was needed to be requested. The real problem with this is\n\t\t\t\t\tthat it was sending these requests per table row instead of per page. So after turning off the\n\t\t\t\t\tlazy loading the page loaded in under 5 seconds and was under 10 queries.\n\t\t\t\t\t"
+                                                ),
+                                                _c("br"),
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tThe other big thing I did while at webdev was a utility class that helped me and will continue\n\t\t\t\t\tto help future developers at the department. A majority of our work at webdev involved creating,\n\t\t\t\t\tediting and displaying 'something'. Traditionally all entity views are done by hand. There is no\n\t\t\t\t\tbuilt in Zend view helper that handles displaying objects in a friendly way.\n\t\t\t\t\t"
+                                                ),
+                                                _c("br"),
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tOne day while creating the same general table-structured view for a project that I had made\n\t\t\t\t\tsimilar ones many times before, it dawned on me that I could be using a utility class to render\n\t\t\t\t\tthis view for me. I cleared the mini-project with my mentor and got to work. The idea was to be\n\t\t\t\t\table to tell the render what and how I want to render an object, and then when the time comes I\n\t\t\t\t\tshould be able to render the object in a line or two instead of 100. A week later I had done it,\n\t\t\t\t\ta fully customizable object renderer that allowed the developer to set up how all the attributes\n\t\t\t\t\tshould be rendered when they create the attribute, and then simply call a view function and my\n\t\t\t\t\tview helper handled the rest.\n\t\t\t\t\t"
+                                                ),
+                                                _c("br"),
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tThis was a blast to make, I really enjoy building things that can reduce development time and\n\t\t\t\t\tmake my job easier.\n\t\t\t\t"
+                                                )
+                                            ])
+                                        ])
+                                    ],
+                                    2
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                    "image-card",
+                                    {staticClass: "mb-4", attrs: {"img-url": "/images/mobo.jpg"}},
+                                    [
+                                        _c("template", {slot: "title"}, [
+                                            _vm._v("\n\t\t\t\tISU Endpoint On-site\n\t\t\t")
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("template", {slot: "content"}, [
+                                            _vm._v(
+                                                "\n\t\t\t\tBefore I had made it very far into my educational program, I still wanted a job and also wanted the\n\t\t\t\tjob to be close to computers. I started working for (basically) the ISU general IT team. My job was\n\t\t\t\tto handle tickets sent by clients. This usually involved troubleshooting Windows drivers or\n\t\t\t\tconnection to printers. The other bulk work of this job was reformatting machines and resetting them\n\t\t\t\tup with the software ensemble provided to all the office workers of Iowa State.\n\t\t\t"
+                                            )
+                                        ])
+                                    ],
+                                    2
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                    "image-card",
+                                    {staticClass: "mb-4", attrs: {"img-url": "/images/pills.jpg"}},
+                                    [
+                                        _c("template", {slot: "title"}, [_vm._v("Hy-Vee")]),
+                                        _vm._v(" "),
+                                        _c("template", {slot: "content"}, [
+                                            _c("p", [
+                                                _vm._v(
+                                                    "\n\t\t\t\t\tI worked for Hy-Vee for many years. It was great practice working closely with customers in the\n\t\t\t\t\tdifferent departments. By the end of my time there I had worked my way to the pharmacy and\n\t\t\t\t\tbecame a certified pharmacy technician.\n\t\t\t\t"
+                                                )
+                                            ])
+                                        ])
+                                    ],
+                                    2
+                                )
+                            ],
+                            1
+                        )
+                    ],
+                    2
+                )
+            }
+            var staticRenderFns = []
+            render._withStripped = true
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
+
+            /***/
+        }),
+
+        /***/
+        "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
+        /*!********************************************************************!*\
+          !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
+          \********************************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -19588,22 +19832,115 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_School_vue_vue_type_template_id_73802eb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./School.vue?vue&type=template&id=73802eb6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/School.vue?vue&type=template&id=73802eb6&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_School_vue_vue_type_template_id_73802eb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony import */
+            var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_School_vue_vue_type_template_id_73802eb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./School.vue?vue&type=template&id=73802eb6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/School.vue?vue&type=template&id=73802eb6&scoped=true&");
+            /* harmony reexport (safe) */
+            __webpack_require__.d(__webpack_exports__, "render", function () {
+                return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_School_vue_vue_type_template_id_73802eb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"];
+            });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_School_vue_vue_type_template_id_73802eb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+            /* harmony reexport (safe) */
+            __webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {
+                return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_School_vue_vue_type_template_id_73802eb6_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"];
+            });
 
 
+            /***/
+        }),
 
-/***/ }),
+        /***/
+        "./resources/js/components/past/Work.vue":
+        /*!***********************************************!*\
+          !*** ./resources/js/components/past/Work.vue ***!
+          \***********************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
-/***/ "./resources/js/routes.js":
-/*!********************************!*\
-  !*** ./resources/js/routes.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony import */
+            var _Work_vue_vue_type_template_id_14402653_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Work.vue?vue&type=template&id=14402653&scoped=true& */ "./resources/js/components/past/Work.vue?vue&type=template&id=14402653&scoped=true&");
+            /* harmony import */
+            var _Work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Work.vue?vue&type=script&lang=js& */ "./resources/js/components/past/Work.vue?vue&type=script&lang=js&");
+            /* empty/unused harmony star reexport *//* harmony import */
+            var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+            /* normalize component */
+
+            var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+                _Work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+                _Work_vue_vue_type_template_id_14402653_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+                _Work_vue_vue_type_template_id_14402653_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+                false,
+                null,
+                "14402653",
+                null
+            )
+
+            /* hot reload */
+            if (false) {
+                var api;
+            }
+            component.options.__file = "resources/js/components/past/Work.vue"
+            /* harmony default export */
+            __webpack_exports__["default"] = (component.exports);
+
+            /***/
+        }),
+
+        /***/
+        "./resources/js/components/past/Work.vue?vue&type=script&lang=js&":
+        /*!************************************************************************!*\
+          !*** ./resources/js/components/past/Work.vue?vue&type=script&lang=js& ***!
+          \************************************************************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony import */
+            var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./Work.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/Work.vue?vue&type=script&lang=js&");
+            /* empty/unused harmony star reexport */ /* harmony default export */
+            __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+            /***/
+        }),
+
+        /***/
+        "./resources/js/components/past/Work.vue?vue&type=template&id=14402653&scoped=true&":
+        /*!******************************************************************************************!*\
+          !*** ./resources/js/components/past/Work.vue?vue&type=template&id=14402653&scoped=true& ***!
+          \******************************************************************************************/
+        /*! exports provided: render, staticRenderFns */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
+
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony import */
+            var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Work_vue_vue_type_template_id_14402653_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./Work.vue?vue&type=template&id=14402653&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/Work.vue?vue&type=template&id=14402653&scoped=true&");
+            /* harmony reexport (safe) */
+            __webpack_require__.d(__webpack_exports__, "render", function () {
+                return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Work_vue_vue_type_template_id_14402653_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"];
+            });
+
+            /* harmony reexport (safe) */
+            __webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {
+                return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Work_vue_vue_type_template_id_14402653_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"];
+            });
+
+
+            /***/
+        }),
+
+        /***/
+        "./resources/js/routes.js":
+        /*!********************************!*\
+          !*** ./resources/js/routes.js ***!
+          \********************************/
+        /*! exports provided: default */
+        /***/ (function (module, __webpack_exports__, __webpack_require__) {
 
             "use strict";
             __webpack_require__.r(__webpack_exports__);
@@ -19625,40 +19962,45 @@ __webpack_require__.r(__webpack_exports__);
             var _components_Why418__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Why418 */ "./resources/js/components/Why418.vue");
             /* harmony import */
             var _components_About__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/About */ "./resources/js/components/About.vue");
+            /* harmony import */
+            var _components_past_Work__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/past/Work */ "./resources/js/components/past/Work.vue");
 
 
             /* harmony default export */
             __webpack_exports__["default"] = ({
-  mode: 'history',
-  linkActiveClass: 'font-bold',
-  routes: [{
-    path: '*',
-      component: _components_NotFound__WEBPACK_IMPORTED_MODULE_6__["default"]
-  }, {
-    path: '/me',
-      component: _components_About__WEBPACK_IMPORTED_MODULE_8__["default"]
-  }, {
-    path: '/laravel',
+                mode: 'history',
+                linkActiveClass: 'font-bold',
+                routes: [{
+                    path: '*',
+                    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_6__["default"]
+                }, {
+                    path: '/me',
+                    component: _components_About__WEBPACK_IMPORTED_MODULE_8__["default"]
+                }, {
+                    path: '/laravel',
     component: _components_current_Laravel__WEBPACK_IMPORTED_MODULE_0__["default"]
   }, {
     path: '/unity',
     component: _components_current_Unity3D__WEBPACK_IMPORTED_MODULE_1__["default"]
-  }, {
-    path: '/blender',
-    component: _components_past_Blender__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }, {
-    path: '/ai',
-    component: _components_past_GameAI__WEBPACK_IMPORTED_MODULE_3__["default"]
-  }, {
-    path: '/school',
-      component: _components_past_School__WEBPACK_IMPORTED_MODULE_4__["default"]
-  }, {
-    path: '/why',
-      component: _components_Why418__WEBPACK_IMPORTED_MODULE_7__["default"]
-  }, {
-    path: '/',
-      component: _components_Home__WEBPACK_IMPORTED_MODULE_5__["default"]
-  }]
+                }, {
+                    path: '/blender',
+                    component: _components_past_Blender__WEBPACK_IMPORTED_MODULE_2__["default"]
+                }, {
+                    path: '/ai',
+                    component: _components_past_GameAI__WEBPACK_IMPORTED_MODULE_3__["default"]
+                }, {
+                    path: '/school',
+                    component: _components_past_School__WEBPACK_IMPORTED_MODULE_4__["default"]
+                }, {
+                    path: '/work',
+                    component: _components_past_Work__WEBPACK_IMPORTED_MODULE_9__["default"]
+                }, {
+                    path: '/why',
+                    component: _components_Why418__WEBPACK_IMPORTED_MODULE_7__["default"]
+                }, {
+                    path: '/',
+                    component: _components_Home__WEBPACK_IMPORTED_MODULE_5__["default"]
+                }]
 });
 
 /***/ }),
@@ -19699,12 +20041,13 @@ var mutations = {
 
 /***/ }),
 
-/***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function (module, exports, __webpack_require__) {
+/***/
+        0:
+        /*!*************************************************************!*\
+          !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
+          \*************************************************************/
+        /*! no static exports found */
+        /***/ (function (module, exports, __webpack_require__) {
 
             __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\js\app.js */"./resources/js/app.js");
             module.exports = __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\sass\app.scss */"./resources/sass/app.scss");

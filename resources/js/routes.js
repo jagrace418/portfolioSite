@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import Why418 from "./components/Why418";
 import About from "./components/About";
+import Work from "./components/past/Work";
 
 export default {
     mode: 'history',
@@ -43,6 +44,10 @@ export default {
         {
             path: '/school',
             component: School
+        },
+        {
+            path: '/work',
+            component: Work
         },
         {
             path: '/why',
