@@ -4,9 +4,7 @@
 		<template slot="content">
 			<div class="flex flex-col">
 				<p>
-					Sometimes I'll see things that make me smile, but one thing that made me laugh when I saw it was HTTP
-					status code 418 "I'm a tea pot".
-					It's an April Fool's joke from 1998 and some websites enjoy implementing it for a laugh.
+					HTTP 418 is an April Fool's joke from 1998.
 				</p>
 
 				<ul class="list-reset">

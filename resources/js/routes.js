@@ -3,13 +3,13 @@ import Unity3D from "./components/current/Unity3D";
 
 import Blender from "./components/past/Blender";
 import GameAI from "./components/past/GameAI";
-import SeniorDesign from "./components/past/SeniorDesign";
 import School from "./components/past/School";
 
 import Home from "./components/Home";
 import NotFound from "./components/NotFound";
 import Why418 from "./components/Why418";
 import About from "./components/About";
+import Work from "./components/past/Work";
 
 export default {
     mode: 'history',
@@ -46,8 +46,8 @@ export default {
             component: School
         },
         {
-            path: '/senior',
-            component: SeniorDesign
+            path: '/work',
+            component: Work
         },
         {
             path: '/why',

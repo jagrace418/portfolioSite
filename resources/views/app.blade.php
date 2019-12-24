@@ -21,13 +21,13 @@
 					:links="[
 					{'text': 'Home', 'url': '/'},
 					{'text': 'Me', 'url': '/me'},
-					{'text': 'Why 418?', 'url': '/why'},
+					{'text': 'School', 'url': '/school'},
+					{'text': 'Work', 'url':'/work'},
 					{'text': 'Laravel', 'url': '/laravel'},
 					{'text': 'Unity', 'url': '/unity'},
-					{'text': 'School', 'url': '/school'},
-					{'text': 'Senior Design', 'url': '/senior'},
 					{'text': 'Games and AI', 'url': '/ai'},
 					{'text': 'Blender', 'url': '/blender'},
+					{'text': 'Why 418?', 'url': '/why'},
 					]"></side-nav>
 			<div class="primary w-3/4">
 				<router-view></router-view>

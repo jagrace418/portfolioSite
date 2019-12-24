@@ -9,34 +9,27 @@
 		</div>
 
 		<div class="md:flex md:flex-wrap">
-			<card class="md:w-1/2">
-				<template slot="title">What kind of education do you have?</template>
-				<template slot="body-simple">
-					B.A. Software Engineering <br/> I.S.U. <br/> Ames, IA <br/>
+			<image-card class="md:w-1/2" img-url="/images/isu.gif">
+				<template slot="title">What education do you have?</template>
+				<template slot="content">
+					B.A. Software Engineering <br/> I.S.U. <br/> Ames, IA <br/> Graduated Dec. 2019 <br/>
 					General Business Minor
 				</template>
-			</card>
+			</image-card>
 			<card class="md:w-1/2 p-2">
 				<template slot="title">
 					How did you get into software engineering?
 				</template>
 				<template slot="body-full">
 					<p>
-						Ever since I was young I would take things apart to see what's inside. When I was young, the
-						local
+						Ever since I was young I would take things apart to see what's inside. One year, the local
 						newspaper asked what I wanted to be when i grew up. I told them 'I want to be a sci-ventor' (My
-						personal
-						combination of scientist and inventor). All these years later, I'd say I did pretty good at
-						meeting that
-						goal.
+						personal combination of scientist and inventor).
 						<br/>
 						In high school I took a Java programming class. That was my first real exposure to software
-						development.
-						The final project was to create anything you wanted, so my partner and I created a Pac Man
-						clone. This
-						was also the start of my fascination with AI. I spent a lot of time reading how the original AI
-						worked
-						in the game and did my best to recreate it.
+						development. The final project was to create anything you wanted, so my partner and I created a
+						Pac Man clone. This was also the start of my fascination with AI. I spent a lot of time reading
+						how the original AI worked in the game and did my best to recreate it.
 					</p>
 				</template>
 			</card>
@@ -46,12 +39,6 @@
 					<div class="flex flex-wrap">
 						<div class="lg:w-1/2 mb-4">
 							<h4>Extremely Comfortable</h4>
-							<p>
-								These are languages I've been using for at least 3 years and feel confident that I can
-								read and
-								write
-								just about anything with them.
-							</p>
 							<ul>
 								<li>PHP</li>
 								<li>Java</li>
@@ -61,11 +48,6 @@
 						</div>
 						<div class="lg:w-1/2 mb-4">
 							<h4>Moderately Comfortable</h4>
-							<p>
-								These are languages I haven't used for extended periods of time but still feel confident
-								I could
-								pick them up and use them with very little difficulty.
-							</p>
 							<ul>
 								<li>C</li>
 								<li>C++</li>
@@ -75,13 +57,6 @@
 						</div>
 						<div class="lg:w-1/2">
 							<h4>Everything Else</h4>
-							<p>
-								The rest of these languages I have at least written a 'Hello World' in. Some for
-								curiosity, some
-								for little mini-projects. But I do not feel very comfortable with them and it would take
-								some
-								work to get to a point that I can do anything impressive with them.
-							</p>
 							<ul>
 								<li>Haskell</li>
 								<li>ASM</li>
@@ -94,32 +69,24 @@
 			</card>
 			<card class="md:w-1/2 p-2">
 				<template slot="title">Is that all you know?</template>
-				<template slot="body-simple">No! I haven't even talked about the other frameworks and technologies I've
-					been exposed to.
+				<template slot="body-simple">No! There are so many other technologies I work with or have been exposed
+					to.
 				</template>
 				<template slot="body-full">
 					<div class="flex flex-wrap">
 						<div class="lg:w-1/2 mb-4">
-							<h4>Most Used</h4>
-							<p>
-								Each of these are something I've done for work or are my go-to technologies when
-								developing
-								something for myself.
-							</p>
+							<h4>Regular Use</h4>
 							<ul>
 								<li>Zend 2</li>
 								<li>Composer</li>
 								<li>MySQL</li>
 								<li>Laravel</li>
+								<li>PHPStorm</li>
+								<li>Git</li>
 							</ul>
 						</div>
 						<div class="lg:w-1/2">
-							<h4>Previous Exposure</h4>
-							<p>
-								This is a catch-all for everything else I've been exposed to. I don't have huge
-								familiarity with
-								these but have at least been exposed to them and done something with them before.
-							</p>
+							<h4>Honorable Mentions</h4>
 							<ul>
 								<li>Angular.js 1</li>
 								<li>React.js</li>
@@ -148,7 +115,7 @@
 					</ul>
 				</template>
 			</card>
-			<card class="lg:w-1/2 p-2">
+			<card class="md:w-1/2 p-2">
 				<template slot="title">Favorite...</template>
 				<template slot="body-full">
 					<div class="flex flex-wrap">
@@ -173,17 +140,17 @@
 					</div>
 				</template>
 			</card>
-
 		</div>
 	</div>
 </template>
 
 <script>
     import Card from "./base/Card";
+    import ImageCard from "./base/ImageCard";
 
     export default {
         name: "About",
-        components: {Card}
+        components: {ImageCard, Card}
     }
 </script>
 
