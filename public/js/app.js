@@ -666,7 +666,8 @@ __webpack_require__.r(__webpack_exports__);
                 }
             });
 
-/***/ }),
+            /***/
+        }),
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/current/Unity3D.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************************!*\
@@ -890,92 +891,100 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "School",
-  components: {
-    ImageCard: _base_ImageCard__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/SeniorDesign.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/past/SeniorDesign.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _base_Card__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../base/Card */ "./resources/js/components/base/Card.vue");
-/* harmony import */ var _base_ImageCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../base/ImageCard */ "./resources/js/components/base/ImageCard.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "SeniorDesign",
-  components: {
-    ImageCard: _base_ImageCard__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }
-});
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
+                name: "School",
+                components: {
+                    ImageCard: _base_ImageCard__WEBPACK_IMPORTED_MODULE_1__["default"],
+                    Card: _base_Card__WEBPACK_IMPORTED_MODULE_0__["default"]
+                }
+            });
 
 /***/ }),
 
@@ -2231,8 +2240,8 @@ var render = function() {
                     _c("br"),
                     _vm._v("\n\t\t\t\tGeneral Business Minor\n\t\t\t")
                 ])
-          ],
-          2
+            ],
+            2
         ),
         _vm._v(" "),
         _c(
@@ -2363,9 +2372,9 @@ var render = function() {
                           _vm._v(" "),
                           _c("li", [_vm._v("Docker")]),
                           _vm._v(" "),
-                    _c("li", [_vm._v("ANTLR")])
+                          _c("li", [_vm._v("ANTLR")])
+                      ])
                   ])
-                ])
               ])
             ])
           ],
@@ -3086,7 +3095,7 @@ var render = function() {
               ])
           ])
       ],
-    2
+      2
   )
 }
 var staticRenderFns = []
@@ -3209,259 +3218,265 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "card",
-    { staticClass: "mb-10" },
-    [
-      _c("template", { slot: "title" }, [_vm._v("School Projects")]),
-      _vm._v(" "),
-      _c("template", { slot: "body-simple" }, [
-        _vm._v(
-          "\n\t\tHere is a summary of all the different software projects I've worked on at ISU. Sadly most of these projects\n\t\thave been lost due to hard drive failure or lack of foresight that I may have wanted to revisit them\n\t\teventually.\n\t"
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "template",
-        { slot: "body-full" },
-        [
-          _c(
-            "image-card",
-            { staticClass: "mb-4", attrs: { "img-url": "/images/rpg.jpg" } },
-            [
-              _c("template", { slot: "title" }, [
-                _vm._v("RPG Dungeon Crawler")
-              ]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tThe dungeon crawler was a very intense semester learning C and C++. I started with very\n\t\t\t\t\trudimentary knowledge of C and by the end of the semester was expected to produce a fully\n\t\t\t\t\tplayable RPG dungeon crawler using the ncurses library.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tThis was a massive undertaking. I built a priority queue system to decide whose turn it was. I\n\t\t\t\t\talso created a map generator using a modified dijkstra's algorithm. Overall, this was my first\n\t\t\t\t\tsolo large scale project and I really enjoyed the challenge.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tMy biggest mistake during this project was letting the professor convince me that using emacs\n\t\t\t\t\tfor a text editor would be a good idea.\n\t\t\t\t"
-                  )
-                ])
-              ])
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c(
-            "image-card",
-            { staticClass: "mb-4", attrs: { "img-url": "/images/weight.jpg" } },
-            [
-              _c("template", { slot: "title" }, [_vm._v("ExerCYse")]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tExerCYse was an Android application developed in a team of 4. Our goal was to make an ISU\n\t\t\t\t\tspecific gym companion app.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tThe final product allowed the user to create workout routines that consisted of a populated list\n\t\t\t\t\tof exercises. It even had a timer feature to encourage the user to keep a good pace throughout\n\t\t\t\t\ttheir workout routine. We also researched the on campus gyms and were able to have the floor\n\t\t\t\t\tplans included in the app. This also meant we could show the user how many machines of each type\n\t\t\t\t\twere available in the gym and where they were located.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tThe biggest challenge on this project was the sheer scope and lack of prior knowledge in app\n\t\t\t\t\tdevelopment. The first month was spent flushing out all the features we wanted to include and\n\t\t\t\t\tmaking sandbox apps to determine if we could implement the features.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tBecause of our heavy research in the beginning, the project ended up going surprisingly smooth\n\t\t\t\t\tthroughout development.\n\t\t\t\t"
-                  )
-                ])
-              ])
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c(
-            "image-card",
-            {
-              staticClass: "mb-4",
-              attrs: { "img-url": "/images/angular.png" }
-            },
-            [
-              _c("template", { slot: "title" }, [_vm._v("Web Apps")]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tI took a class that was designed as an 'exposure class'. In this class I developed web\n\t\t\t\t\tapplications using Angular.js, LAMP Stack, and React.js.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tEach presented an initial learning curve of setting them up and understanding how they interact\n\t\t\t\t\twith the browser but overall it was fun trying multiple web technologies in a short span on\n\t\t\t\t\ttime.\n\t\t\t\t"
-                  )
-                ])
-              ])
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c(
-            "image-card",
-            { attrs: { "img-url": "/images/wrestler.png" } },
-            [
-              _c("template", { slot: "title" }, [_vm._v("Sumo.io")]),
-              _vm._v(" "),
-              _c("template", { slot: "content" }, [
-                _c("p", [
-                  _vm._v(
-                    "\n\t\t\t\t\tThe idea behind Sumo.io was a two person sumo wrestler online game. I worked in a team of 2 to\n\t\t\t\t\tcreate the application. This was my first experience writing an online game.\n\t\t\t\t\t"
-                  ),
-                  _c("br"),
-                  _c("br"),
-                  _vm._v(
-                    "\n\t\t\t\t\tSome challenges I encountered on this project was efficient teamwork. It took some discussion to\n\t\t\t\t\tconvince my partner that using VCS was a good idea and would make development much easier. Once\n\t\t\t\t\twe started using Git we were both able to work on the project at once instead of sending each\n\t\t\t\t\tother zip files.\n\t\t\t\t"
-                  )
-                ])
-              ])
-            ],
-            2
-          )
-        ],
-        1
-      )
-    ],
-    2
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/past/SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "card" }, [
-    _c("h3", [_vm._v("Senior Design")]),
-    _vm._v(" "),
-    _c(
       "div",
-      { staticClass: "md:flex md:flex-wrap" },
       [
-        _c(
-          "image-card",
-          {
-            staticClass: "md:w-1/2",
-            attrs: { "img-url": "/images/simpleTree.jpg" }
-          },
-          [
-            _c("template", { slot: "title" }, [_vm._v("Goal")]),
-            _vm._v(" "),
-            _c("template", { slot: "content" }, [
-              _c("p", [
-                _vm._v(
-                  "\n\t\t\t\t\tOur goal was to design and create a system that allows the user to string lights on any\n\t\t\t\t\tobject they choose. They then should be able to use the system to calibrate where the lights\n\t\t\t\t\tare on the object and dynamically change them.\n\t\t\t\t\t"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n\t\t\t\t\tThis project involved a lot of Python and work with Raspberry Pis.\n\t\t\t\t"
-                )
-              ])
-            ])
-          ],
-          2
-        ),
-        _vm._v(" "),
-        _c(
-          "image-card",
-          {
-            staticClass: "md:w-1/2",
-            attrs: { "img-url": "/images/opencv.svg" }
-          },
-          [
-            _c("template", { slot: "title" }, [
-              _vm._v("What was your contribution?")
-            ]),
-            _vm._v(" "),
-            _c("template", { slot: "content" }, [
-              _c("p", [
-                _vm._v(
-                  "\n\t\t\t\t\tMy main contribution to the project was the first phase of the light calibration. I was tasked\n\t\t\t\t\tto set up the inter-process communication and figure out how to detect LEDs and extract their\n\t\t\t\t\tcoordinates in the image.\n\t\t\t\t\t"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n\t\t\t\t\tI used OpenCV for the image processing. After the steep initial learning curve, this ended up\n\t\t\t\t\tbeing a really elegant solution.\n\t\t\t\t"
-                )
-              ])
-            ])
-          ],
-          2
-        ),
-        _vm._v(" "),
-        _c(
-          "image-card",
-          {
-            staticClass: "md:w-1/2",
-            attrs: { "img-url": "/images/python-logo.svg" }
-          },
-          [
-            _c("template", { slot: "title" }, [_vm._v("What did you learn?")]),
-            _vm._v(" "),
-            _c("template", { slot: "content" }, [
-              _c("p", [
-                _vm._v(
-                  "\n\t\t\t\t\tThe biggest take away from the project was the importance of Python virtual environments.\n\t\t\t\t\tWe did not originally use them and ran into many issues with conflicting Python version\n\t\t\t\t\tinstallations.\n\t\t\t\t\t"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n\t\t\t\t\tThis project was also a great learning experience on the importance of documentation and team\n\t\t\t\t\tcommunication.\n\t\t\t\t"
-                )
-              ])
-            ])
-          ],
-          2
-        ),
-        _vm._v(" "),
-        _c(
-          "image-card",
-          {
-            staticClass: "md:w-1/2",
-            attrs: { "img-url": "/images/treeDemo.gif" }
-          },
-          [
-            _c("template", { slot: "title" }, [_vm._v("What was the result?")]),
-            _vm._v(" "),
-            _c("template", { slot: "content" }, [
-              _vm._v(
-                "\n\t\t\t\tIn the beginning of the project we projected that we could have full image mapping done by the end\n\t\t\t\tof the year. But due to some setbacks passed down to us from the previous group we were unable to\n\t\t\t\treach that goal. But we were still able to get to a very satisfactory point.\n\t\t\t"
-              )
-            ])
-          ],
-          2
-        )
+          _c(
+              "card",
+              {staticClass: "mb-10"},
+              [
+                  _c("template", {slot: "title"}, [_vm._v("School Projects")]),
+                  _vm._v(" "),
+                  _c("template", {slot: "body-simple"}, [
+                      _vm._v(
+                          "\n\t\t\tHere is a summary of all the different software projects I've worked on at ISU. Sadly most of these\n\t\t\tprojects\n\t\t\thave been lost due to hard drive failure or lack of foresight that I may have wanted to revisit them\n\t\t\teventually.\n\t\t"
+                      )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                      "template",
+                      {slot: "body-full"},
+                      [
+                          _c(
+                              "image-card",
+                              {
+                                  staticClass: "mb-4",
+                                  attrs: {"img-url": "/images/rpg.jpg"}
+                              },
+                              [
+                                  _c("template", {slot: "title"}, [
+                                      _vm._v("RPG Dungeon Crawler")
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("template", {slot: "content"}, [
+                                      _c("p", [
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tThe dungeon crawler was a very intense semester learning C and C++. I started with very\n\t\t\t\t\t\trudimentary knowledge of C and by the end of the semester was expected to produce a fully\n\t\t\t\t\t\tplayable RPG dungeon crawler using the ncurses library.\n\t\t\t\t\t\t"
+                                          ),
+                                          _c("br"),
+                                          _c("br"),
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tThis was a massive undertaking. I built a priority queue system to decide whose turn it was.\n\t\t\t\t\t\tI\n\t\t\t\t\t\talso created a map generator using a modified dijkstra's algorithm. Overall, this was my\n\t\t\t\t\t\tfirst\n\t\t\t\t\t\tsolo large scale project and I really enjoyed the challenge.\n\t\t\t\t\t\t"
+                                          ),
+                                          _c("br"),
+                                          _c("br"),
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tMy biggest mistake during this project was letting the professor convince me that using\n\t\t\t\t\t\temacs\n\t\t\t\t\t\tfor a text editor would be a good idea.\n\t\t\t\t\t"
+                                          )
+                                      ])
+                                  ])
+                              ],
+                              2
+                          ),
+                          _vm._v(" "),
+                          _c(
+                              "image-card",
+                              {
+                                  staticClass: "mb-4",
+                                  attrs: {"img-url": "/images/weight.jpg"}
+                              },
+                              [
+                                  _c("template", {slot: "title"}, [_vm._v("ExerCYse")]),
+                                  _vm._v(" "),
+                                  _c("template", {slot: "content"}, [
+                                      _c("p", [
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tExerCYse was an Android application developed in a team of 4. Our goal was to make an ISU\n\t\t\t\t\t\tspecific gym companion app.\n\t\t\t\t\t\t"
+                                          ),
+                                          _c("br"),
+                                          _c("br"),
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tThe final product allowed the user to create workout routines that consisted of a populated\n\t\t\t\t\t\tlist\n\t\t\t\t\t\tof exercises. It even had a timer feature to encourage the user to keep a good pace\n\t\t\t\t\t\tthroughout\n\t\t\t\t\t\ttheir workout routine. We also researched the on campus gyms and were able to have the floor\n\t\t\t\t\t\tplans included in the app. This also meant we could show the user how many machines of each\n\t\t\t\t\t\ttype\n\t\t\t\t\t\twere available in the gym and where they were located.\n\t\t\t\t\t\t"
+                                          ),
+                                          _c("br"),
+                                          _c("br"),
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tThe biggest challenge on this project was the sheer scope and lack of prior knowledge in app\n\t\t\t\t\t\tdevelopment. The first month was spent flushing out all the features we wanted to include\n\t\t\t\t\t\tand\n\t\t\t\t\t\tmaking sandbox apps to determine if we could implement the features.\n\t\t\t\t\t\t"
+                                          ),
+                                          _c("br"),
+                                          _c("br"),
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tBecause of our heavy research in the beginning, the project ended up going surprisingly\n\t\t\t\t\t\tsmooth\n\t\t\t\t\t\tthroughout development.\n\t\t\t\t\t"
+                                          )
+                                      ])
+                                  ])
+                              ],
+                              2
+                          ),
+                          _vm._v(" "),
+                          _c(
+                              "image-card",
+                              {
+                                  staticClass: "mb-4",
+                                  attrs: {"img-url": "/images/angular.png"}
+                              },
+                              [
+                                  _c("template", {slot: "title"}, [_vm._v("Web Apps")]),
+                                  _vm._v(" "),
+                                  _c("template", {slot: "content"}, [
+                                      _c("p", [
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tI took a class that was designed as an 'exposure class'. In this class I developed web\n\t\t\t\t\t\tapplications using Angular.js, LAMP Stack, and React.js.\n\t\t\t\t\t\t"
+                                          ),
+                                          _c("br"),
+                                          _c("br"),
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tEach presented an initial learning curve of setting them up and understanding how they\n\t\t\t\t\t\tinteract\n\t\t\t\t\t\twith the browser but overall it was fun trying multiple web technologies in a short span on\n\t\t\t\t\t\ttime.\n\t\t\t\t\t"
+                                          )
+                                      ])
+                                  ])
+                              ],
+                              2
+                          ),
+                          _vm._v(" "),
+                          _c(
+                              "image-card",
+                              {attrs: {"img-url": "/images/wrestler.png"}},
+                              [
+                                  _c("template", {slot: "title"}, [_vm._v("Sumo.io")]),
+                                  _vm._v(" "),
+                                  _c("template", {slot: "content"}, [
+                                      _c("p", [
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tThe idea behind Sumo.io was a two person sumo wrestler online game. I worked in a team of 2\n\t\t\t\t\t\tto\n\t\t\t\t\t\tcreate the application. This was my first experience writing an online game.\n\t\t\t\t\t\t"
+                                          ),
+                                          _c("br"),
+                                          _c("br"),
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tSome challenges I encountered on this project was efficient teamwork. It took some\n\t\t\t\t\t\tdiscussion to\n\t\t\t\t\t\tconvince my partner that using VCS was a good idea and would make development much easier.\n\t\t\t\t\t\tOnce\n\t\t\t\t\t\twe started using Git we were both able to work on the project at once instead of sending\n\t\t\t\t\t\teach\n\t\t\t\t\t\tother zip files.\n\t\t\t\t\t"
+                                          )
+                                      ])
+                                  ])
+                              ],
+                              2
+                          )
+                      ],
+                      1
+                  )
+              ],
+              2
+          ),
+          _vm._v(" "),
+          _c(
+              "card",
+              [
+                  _c("template", {slot: "title"}, [_vm._v("Senior Design")]),
+                  _vm._v(" "),
+                  _c("template", {slot: "body-simple"}, [
+                      _vm._v(
+                          "To wrap up my degree, the college requires I participate in senior design. This\n\t\t\tis a year long set of classes that are meant to be representative of using everything I have learned to\n\t\t\tcome up with a solution to a tough problem.\n\t\t"
+                      )
+                  ]),
+                  _vm._v(" "),
+                  _c("template", {slot: "body-full"}, [
+                      _c(
+                          "div",
+                          {staticClass: "md:flex md:flex-wrap"},
+                          [
+                              _c(
+                                  "image-card",
+                                  {
+                                      staticClass: "md:w-1/2",
+                                      attrs: {"img-url": "/images/simpleTree.jpg"}
+                                  },
+                                  [
+                                      _c("template", {slot: "title"}, [_vm._v("Goal")]),
+                                      _vm._v(" "),
+                                      _c("template", {slot: "content"}, [
+                                          _c("p", [
+                                              _vm._v(
+                                                  "\n\t\t\t\t\t\t\tOur goal was to design and create a system that allows the user to string lights on any\n\t\t\t\t\t\t\tobject they choose. They then should be able to use the system to calibrate where the\n\t\t\t\t\t\t\tlights\n\t\t\t\t\t\t\tare on the object and dynamically change them.\n\t\t\t\t\t\t\t"
+                                              ),
+                                              _c("br"),
+                                              _vm._v(
+                                                  "\n\t\t\t\t\t\t\tThis project involved a lot of Python and work with Raspberry Pis.\n\t\t\t\t\t\t"
+                                              )
+                                          ])
+                                      ])
+                                  ],
+                                  2
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                  "image-card",
+                                  {
+                                      staticClass: "md:w-1/2",
+                                      attrs: {"img-url": "/images/opencv.svg"}
+                                  },
+                                  [
+                                      _c("template", {slot: "title"}, [
+                                          _vm._v("What was your contribution?")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("template", {slot: "content"}, [
+                                          _c("p", [
+                                              _vm._v(
+                                                  "\n\t\t\t\t\t\t\tMy main contribution to the project was the first phase of the light calibration. I was\n\t\t\t\t\t\t\ttasked\n\t\t\t\t\t\t\tto set up the inter-process communication and figure out how to detect LEDs and extract\n\t\t\t\t\t\t\ttheir\n\t\t\t\t\t\t\tcoordinates in the image.\n\t\t\t\t\t\t\t"
+                                              ),
+                                              _c("br"),
+                                              _vm._v(
+                                                  "\n\t\t\t\t\t\t\tI used OpenCV for the image processing. After the steep initial learning curve, this\n\t\t\t\t\t\t\tended\n\t\t\t\t\t\t\tup\n\t\t\t\t\t\t\tbeing a really elegant solution.\n\t\t\t\t\t\t"
+                                              )
+                                          ])
+                                      ])
+                                  ],
+                                  2
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                  "image-card",
+                                  {
+                                      staticClass: "md:w-1/2",
+                                      attrs: {"img-url": "/images/python-logo.svg"}
+                                  },
+                                  [
+                                      _c("template", {slot: "title"}, [
+                                          _vm._v("What did you learn?")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("template", {slot: "content"}, [
+                                          _c("p", [
+                                              _vm._v(
+                                                  "\n\t\t\t\t\t\t\tThe biggest take away from the project was the importance of Python virtual\n\t\t\t\t\t\t\tenvironments.\n\t\t\t\t\t\t\tWe did not originally use them and ran into many issues with conflicting Python version\n\t\t\t\t\t\t\tinstallations.\n\t\t\t\t\t\t\t"
+                                              ),
+                                              _c("br"),
+                                              _vm._v(
+                                                  "\n\t\t\t\t\t\t\tThis project was also a great learning experience on the importance of documentation and\n\t\t\t\t\t\t\tteam\n\t\t\t\t\t\t\tcommunication.\n\t\t\t\t\t\t"
+                                              )
+                                          ])
+                                      ])
+                                  ],
+                                  2
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                  "image-card",
+                                  {
+                                      staticClass: "md:w-1/2",
+                                      attrs: {"img-url": "/images/treeDemo.gif"}
+                                  },
+                                  [
+                                      _c("template", {slot: "title"}, [
+                                          _vm._v("What was the result?")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("template", {slot: "content"}, [
+                                          _vm._v(
+                                              "\n\t\t\t\t\t\tIn the beginning of the project we projected that we could have full image mapping done by\n\t\t\t\t\t\tthe\n\t\t\t\t\t\tend\n\t\t\t\t\t\tof the year. But due to some setbacks passed down to us from the previous group we were\n\t\t\t\t\t\tunable\n\t\t\t\t\t\tto\n\t\t\t\t\t\treach that goal. But we were still able to get to a very satisfactory point.\n\t\t\t\t\t"
+                                          )
+                                      ])
+                                  ],
+                                  2
+                              )
+                          ],
+                          1
+                      )
+                  ])
+              ],
+              2
+          )
       ],
       1
-    )
-  ])
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -19583,75 +19598,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/past/SeniorDesign.vue":
-/*!*******************************************************!*\
-  !*** ./resources/js/components/past/SeniorDesign.vue ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _SeniorDesign_vue_vue_type_template_id_daeb7260_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true& */ "./resources/js/components/past/SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true&");
-/* harmony import */ var _SeniorDesign_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SeniorDesign.vue?vue&type=script&lang=js& */ "./resources/js/components/past/SeniorDesign.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _SeniorDesign_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _SeniorDesign_vue_vue_type_template_id_daeb7260_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _SeniorDesign_vue_vue_type_template_id_daeb7260_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "daeb7260",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/past/SeniorDesign.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/past/SeniorDesign.vue?vue&type=script&lang=js&":
-/*!********************************************************************************!*\
-  !*** ./resources/js/components/past/SeniorDesign.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SeniorDesign_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./SeniorDesign.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/SeniorDesign.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_SeniorDesign_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/past/SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true&":
-/*!**************************************************************************************************!*\
-  !*** ./resources/js/components/past/SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true& ***!
-  \**************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SeniorDesign_vue_vue_type_template_id_daeb7260_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/past/SeniorDesign.vue?vue&type=template&id=daeb7260&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SeniorDesign_vue_vue_type_template_id_daeb7260_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SeniorDesign_vue_vue_type_template_id_daeb7260_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
 /***/ "./resources/js/routes.js":
 /*!********************************!*\
   !*** ./resources/js/routes.js ***!
@@ -19659,37 +19605,38 @@ __webpack_require__.r(__webpack_exports__);
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_current_Laravel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/current/Laravel */ "./resources/js/components/current/Laravel.vue");
-/* harmony import */ var _components_current_Unity3D__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/current/Unity3D */ "./resources/js/components/current/Unity3D.vue");
-/* harmony import */ var _components_past_Blender__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/past/Blender */ "./resources/js/components/past/Blender.vue");
-/* harmony import */ var _components_past_GameAI__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/past/GameAI */ "./resources/js/components/past/GameAI.vue");
-/* harmony import */ var _components_past_SeniorDesign__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/past/SeniorDesign */ "./resources/js/components/past/SeniorDesign.vue");
-/* harmony import */ var _components_past_School__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/past/School */ "./resources/js/components/past/School.vue");
-/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Home */ "./resources/js/components/Home.vue");
-/* harmony import */ var _components_NotFound__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/NotFound */ "./resources/js/components/NotFound.vue");
-/* harmony import */ var _components_Why418__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Why418 */ "./resources/js/components/Why418.vue");
-/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/About */ "./resources/js/components/About.vue");
+            "use strict";
+            __webpack_require__.r(__webpack_exports__);
+            /* harmony import */
+            var _components_current_Laravel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/current/Laravel */ "./resources/js/components/current/Laravel.vue");
+            /* harmony import */
+            var _components_current_Unity3D__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/current/Unity3D */ "./resources/js/components/current/Unity3D.vue");
+            /* harmony import */
+            var _components_past_Blender__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/past/Blender */ "./resources/js/components/past/Blender.vue");
+            /* harmony import */
+            var _components_past_GameAI__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/past/GameAI */ "./resources/js/components/past/GameAI.vue");
+            /* harmony import */
+            var _components_past_School__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/past/School */ "./resources/js/components/past/School.vue");
+            /* harmony import */
+            var _components_Home__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Home */ "./resources/js/components/Home.vue");
+            /* harmony import */
+            var _components_NotFound__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/NotFound */ "./resources/js/components/NotFound.vue");
+            /* harmony import */
+            var _components_Why418__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Why418 */ "./resources/js/components/Why418.vue");
+            /* harmony import */
+            var _components_About__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/About */ "./resources/js/components/About.vue");
 
 
-
-
-
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
+            /* harmony default export */
+            __webpack_exports__["default"] = ({
   mode: 'history',
   linkActiveClass: 'font-bold',
   routes: [{
     path: '*',
-    component: _components_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"]
+      component: _components_NotFound__WEBPACK_IMPORTED_MODULE_6__["default"]
   }, {
     path: '/me',
-    component: _components_About__WEBPACK_IMPORTED_MODULE_9__["default"]
+      component: _components_About__WEBPACK_IMPORTED_MODULE_8__["default"]
   }, {
     path: '/laravel',
     component: _components_current_Laravel__WEBPACK_IMPORTED_MODULE_0__["default"]
@@ -19704,16 +19651,13 @@ __webpack_require__.r(__webpack_exports__);
     component: _components_past_GameAI__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
     path: '/school',
-    component: _components_past_School__WEBPACK_IMPORTED_MODULE_5__["default"]
-  }, {
-    path: '/senior',
-    component: _components_past_SeniorDesign__WEBPACK_IMPORTED_MODULE_4__["default"]
+      component: _components_past_School__WEBPACK_IMPORTED_MODULE_4__["default"]
   }, {
     path: '/why',
-    component: _components_Why418__WEBPACK_IMPORTED_MODULE_8__["default"]
+      component: _components_Why418__WEBPACK_IMPORTED_MODULE_7__["default"]
   }, {
     path: '/',
-    component: _components_Home__WEBPACK_IMPORTED_MODULE_6__["default"]
+      component: _components_Home__WEBPACK_IMPORTED_MODULE_5__["default"]
   }]
 });
 
@@ -19760,7 +19704,7 @@ var mutations = {
   !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
   \*************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function (module, exports, __webpack_require__) {
 
             __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\js\app.js */"./resources/js/app.js");
             module.exports = __webpack_require__(/*! D:\Xampp\htdocs\Portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
