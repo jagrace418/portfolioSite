@@ -1,5 +1,5 @@
 <template>
-	<image-card img-url="/images/tea.jpg">
+	<image-card img-url="tea.jpg">
 		<template slot="title">Why do you use 418?</template>
 		<template slot="content">
 			<div class="flex flex-col">

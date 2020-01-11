@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<image-card img-url="/images/laravel-logo.png" class="mb-10">
+		<image-card img-url="laravel-logo.png" class="mb-10">
 			<template slot="title">Laravel</template>
 			<template slot="content">
 				Laravel is my new web developer addiction.

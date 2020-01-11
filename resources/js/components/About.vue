@@ -4,7 +4,7 @@
 			<h3>About Me</h3>
 			<p>My name is Jake and I'm a software engineer</p>
 			<a href="https://www.linkedin.com/in/jacobisu19/">
-				<img class="rounded-full" src="/images/selfie.jpg" alt="Jake">
+				<img class="rounded-full" src="selfie.jpg" alt="Jake">
 			</a>
 		</div>
 

@@ -7,7 +7,7 @@
 			for the school for a majority of my time in college.
 		</template>
 		<template slot="body-full">
-			<image-card img-url="/images/zend.png" class="mb-4">
+			<image-card img-url="zend.png" class="mb-4">
 				<template slot="title">ISU Webdev</template>
 				<template slot="content">
 					<p>
@@ -57,7 +57,7 @@
 					</p>
 				</template>
 			</image-card>
-			<image-card class="mb-4" img-url="/images/mobo.jpg">
+			<image-card class="mb-4" img-url="mobo.jpg">
 				<template slot="title">
 					ISU Endpoint On-site
 				</template>
@@ -69,7 +69,7 @@
 					up with the software ensemble provided to all the office workers of Iowa State.
 				</template>
 			</image-card>
-			<image-card img-url="/images/pills.jpg" class="mb-4">
+			<image-card img-url="pills.jpg" class="mb-4">
 				<template slot="title">Hy-Vee</template>
 				<template slot="content">
 					<p>
