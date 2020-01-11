@@ -2,7 +2,7 @@
 	<card>
 		<template slot="title">Game AI</template>
 		<template slot="mainImage">
-			<img width="200" height="200" src="/images/othello.gif" alt="Othello">
+			<img width="200" height="200" src="images/othello.gif" alt="Othello">
 		</template>
 		<template slot="body-simple">
 			I love video games! Something that has always fascinated me is the computer I've played against in countless

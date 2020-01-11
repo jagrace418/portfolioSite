@@ -1,5 +1,5 @@
 <template>
-	<image-card img-url="/images/twisty.png">
+	<image-card img-url="twisty.png">
 		<template slot="title">Blender Projects</template>
 		<template slot="content">
 			<p>
