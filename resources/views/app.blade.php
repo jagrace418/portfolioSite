@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jake's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="/portfolio/css/app.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157166305-1"></script>
@@ -45,7 +45,7 @@
 		</main>
 	</div>
 </div>
-<script src="/portfolio/js/app.js"></script>
+<script src="js/app.js"></script>
 </body>
 
 </html>

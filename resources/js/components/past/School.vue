@@ -9,7 +9,7 @@
 				eventually.
 			</template>
 			<template slot="body-full">
-				<image-card img-url="/images/rpg.jpg" class="mb-4">
+				<image-card img-url="rpg.jpg" class="mb-4">
 					<template slot="title">RPG Dungeon Crawler</template>
 					<template slot="content">
 						<p>
@@ -29,7 +29,7 @@
 						</p>
 					</template>
 				</image-card>
-				<image-card img-url="/images/weight.jpg" class="mb-4">
+				<image-card img-url="weight.jpg" class="mb-4">
 					<template slot="title">ExerCYse</template>
 					<template slot="content">
 						<p>
@@ -56,7 +56,7 @@
 						</p>
 					</template>
 				</image-card>
-				<image-card img-url="/images/angular.png" class="mb-4">
+				<image-card img-url="angular.png" class="mb-4">
 					<template slot="title">Web Apps</template>
 					<template slot="content">
 						<p>
@@ -70,7 +70,7 @@
 						</p>
 					</template>
 				</image-card>
-				<image-card img-url="/images/wrestler.png">
+				<image-card img-url="wrestler.png">
 					<template slot="title">Sumo.io</template>
 					<template slot="content">
 						<p>
@@ -98,7 +98,7 @@
 			</template>
 			<template slot="body-full">
 				<div class="md:flex md:flex-wrap">
-					<image-card img-url="/images/simpleTree.jpg" class="md:w-1/2">
+					<image-card img-url="simpleTree.jpg" class="md:w-1/2">
 						<template slot="title">Goal</template>
 						<template slot="content">
 							<p>
@@ -111,7 +111,7 @@
 							</p>
 						</template>
 					</image-card>
-					<image-card img-url="/images/opencv.svg" class="md:w-1/2">
+					<image-card img-url="opencv.svg" class="md:w-1/2">
 						<template slot="title">What was your contribution?</template>
 						<template slot="content">
 							<p>
@@ -128,7 +128,7 @@
 							</p>
 						</template>
 					</image-card>
-					<image-card img-url="/images/python-logo.svg" class="md:w-1/2">
+					<image-card img-url="python-logo.svg" class="md:w-1/2">
 						<template slot="title">What did you learn?</template>
 						<template slot="content">
 							<p>
@@ -143,7 +143,7 @@
 							</p>
 						</template>
 					</image-card>
-					<image-card img-url="/images/treeDemo.gif" class="md:w-1/2">
+					<image-card img-url="treeDemo.gif" class="md:w-1/2">
 						<template slot="title">What was the result?</template>
 						<template slot="content">
 							In the beginning of the project we projected that we could have full image mapping done by
