@@ -11,3 +11,11 @@ const app = new Vue({
 
     router: new VueRouter(routes)
 });
+
+routes.afterEach((to) => {
+    gtag('config', 'UA-157166305-1', {
+        page_path: to.fullPath,
+        app_name: 'Portfolio',
+        send_page_view: true,
+    });
+});
